@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Clancy
+title: SaaS Template
 logo: # You can add own logo. For example '/images/logo.png'.
-author: Jason Collins
+author: Karl Eriksson
 description: Clancy is a elegant portfolio theme for Jekyll.
 
 
@@ -25,17 +25,17 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hello, my name’s Jason. I’m a Designer & Photographer based in San Francisco.
-  hero__description: I'm a freelance designer and photographer. For almost five years I have been working with clients from a variety of clients to create pieces that meet their goals. I invite you to navigate my portfolio to know a bit more about me and my work.
+  hero__title: Node and React SaaS Template
+  hero__description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
 
 
 #-------------------------------
 # Portfolio Settings
 portfolio:
-  portfolio__title: Portfolio
+  portfolio__title: Features
   portfolio__gallery:
     - image: /images/gallery-01.jpg
-      title: Samantha Gades
+      title: User Management
       description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
 
     - image: /images/gallery-02.jpg
