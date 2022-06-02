@@ -1,26 +1,25 @@
+---
 #-------------------------------
 # Site Settings
-title: SaaS Template
+title: volca
 logo: # You can add own logo. For example '/images/logo.png'.
 author: Karl Eriksson
 description: Clancy is a elegant portfolio theme for Jekyll.
-
 
 #-------------------------------
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
-    - title: 'Elements'
-      url: '/elements/'
-
+    - title: "Home"
+      url: "/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+    - title: "Elements"
+      url: "/elements/"
 
 #-------------------------------
 # Hero Settings
@@ -28,71 +27,97 @@ hero:
   hero__title: Node and React SaaS Template
   hero__description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
 
-
 #-------------------------------
 # Portfolio Settings
 portfolio:
   portfolio__title: Features
   portfolio__gallery:
-    - image: /images/gallery-01.jpg
-      title: User Management
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
+    - icon: ion-ios-build
+      title: CI/CD
+      description: Deploy with confidence from the start with a solid CI/CD setup
 
-    - image: /images/gallery-02.jpg
-      title: Paula Vermeulen
-      description: Gray mountain covered by mountain <a href="https://unsplash.com/photos/_f2m3mEkaaU">Unsplash</a>
+    - icon: ion-ios-lock
+      title: Secure
+      description: Built with best practice security
 
-    - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+    - icon: ion-ios-card
+      title: Subscriptions
+      description: Enable your users to subscribe to your service
 
-    - image: /images/gallery-04.jpg
-      title: Nord Wood
-      description: White ceramic mug <a href="https://unsplash.com/photos/nDd3dIkkOLo">Unsplash</a>
+    - icon: ion-ios-briefcase
+      title: Projects
+      description: Enable your users to create projects to manage your features
 
-    - image: /images/gallery-05.jpg
-      title: Luca Bravo
-      description: White ribs in a facade against a white sky <a href="https://unsplash.com/photos/alS7ewQ41M8">Unsplash</a>
+    - icon: ion-ios-key
+      title: Authentication
+      description: Secure and reliable authentication out of the box
 
-    - image: /images/gallery-06.jpg
-      title: Isaac Benhesed
-      description: Minimalist black coffee <a href="https://unsplash.com/photos/onLbXleIkds">Unsplash</a>
+    - icon: ion-ios-pulse
+      title: Monitoring
+      description: Make sure your SaaS is running smoothly at all times
 
-    - image: /images/gallery-07.jpg
-      title: Water Journal
-      description: Water Journal is a bi-annual publication exploring the beauty and complexity of all things water <a href="https://unsplash.com/photos/EbuaKnSm8Zw">Unsplash</a>
+    - icon: ion-ios-search
+      title: Logging
+      description: Find and remedy production issues quickly
 
-    - image: /images/gallery-08.jpg
-      title: Luca Bravo
-      description: Worms eye view of city buildings <a href="https://unsplash.com/photos/a6x7YPiNxwI">Unsplash</a>
+    - icon: ion-ios-cash
+      title: Free Tier
+      description: Free at rest infrastructure - no usage, no cost
 
-    - image: /images/gallery-09.jpg
-      title: Books and Laptop
-      description: Silver laptop computer with two books on the top <a href="https://unsplash.com/photos/fFIAKABImf4">Unsplash</a>
-
+    - icon: ion-ios-code
+      title: Open Source
+      description: Our core functionality is available open source
 
 #-------------------------------
 # Subscribe Settings
 mailchimp:
-  mailchimp__title: Get updates and digital art inspiration # Add your Title
+  mailchimp__title: Get tutorials and inspiration for building your own SaaS # Add your Title
   mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
   mailchimp__button__text: Subscribe # Add your button text.
   mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
 
-
 #-------------------------------
 # Footer Settings
 social:
-- {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
-- {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
-- {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}
-- {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "https://instagram.com"}
-- {icon: "ion ion-logo-vimeo", color: "#1393cd", label: Vimeo, link: "https://vimeo.com"}
+  - {
+      icon: "ion-logo-twitter",
+      color: "#55acee",
+      label: Twitter,
+      link: "https://twitter.com",
+    }
+  - {
+      icon: "ion-logo-facebook",
+      color: "#3b5999",
+      label: Facebook,
+      link: "https://facebook.com",
+    }
+  - {
+      icon: "ion-logo-pinterest",
+      color: "#bd081c",
+      label: Pinterest,
+      link: "https://pinterest.com",
+    }
+  - {
+      icon: "ion-logo-dribbble",
+      color: "#ea4c89",
+      label: Dribbble,
+      link: "https://dribbble.com",
+    }
+  - {
+      icon: "ion-logo-instagram",
+      color: "#e4405f",
+      label: Instagram,
+      link: "https://instagram.com",
+    }
+  - {
+      icon: "ion ion-logo-vimeo",
+      color: "#1393cd",
+      label: Vimeo,
+      link: "https://vimeo.com",
+    }
 
 # Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
-
 
 #-------------------------------
 # Contact Settings
@@ -103,12 +128,10 @@ contact:
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
-
 #-------------------------------
 # Comment Section (Disqus)
 
 disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
-
 
 #-------------------------------
 # Google Analytics
