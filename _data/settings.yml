@@ -1,8 +1,8 @@
 ---
 #-------------------------------
 # Site Settings
-title: Volca - Node and React SaaS Template
-logo: # You can add own logo. For example '/images/logo.png'.
+title: volca
+logo: /images/logo-light.svg
 author: Volca
 description: Clancy is a elegant portfolio theme for Jekyll.
 
