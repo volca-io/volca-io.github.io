@@ -46,7 +46,7 @@ portfolio:
 
     - icon: ion-ios-briefcase
       title: Projects
-      description: Enable your users to create projects to manage your features
+      description: Enable your users to create projects and invite their team
 
     - icon: ion-ios-key
       title: Authentication
