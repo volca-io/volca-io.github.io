@@ -1,0 +1,30 @@
+<!-- begin faq -->
+<section class="section portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__head">
+          <h2 class="section__title">
+            Frequently Asked Questions
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio__gallery">
+    <div class="container">
+      {% for item in site.data.settings.faq %}
+      <div class="row">
+        <div class="col col-12">
+          <p style="font-size: 1.5em">
+            {{item.title}}
+          </p>
+          <p>{{item.description}}</p>
+        </div>  
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- end faq -->
