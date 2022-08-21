@@ -90,7 +90,10 @@ faq:
     description: All of the infrastructure required to run Volca is defined using AWS CDK and deploys to an AWS account of your choosing. By default, GitHub Actions are configured to deploy to your environments when pushing code into your GitHub repository.
   
   - title: Who built Volca?
-    description: Volca was built by Oskar and Karl, both full stack developers with a combined programming experience of 20 years. They have worked on everything from fast growing apps to huge enterprise systems and all of their learnings have been poured into the development of Volca.
+    description: Volca was built by Oskar and Karl, two full stack developers with a combined programming experience of 20 years. They have worked on everything from fast growing apps to huge enterprise systems and all of their learnings have been poured into the development of Volca.
+    
+  - title: Why did you build Volca?
+    description: After building software products for the last 10 years, we noticed that there is a huge startup time when building something from scratch. So we took all the components that we kept rebuilding for each project and put them into a single template that anyone can use to kick start their development.
 
 #-------------------------------
 # Subscribe Settings
