@@ -75,19 +75,22 @@ faq:
     description: Volca is a code template for SaaS products that give you everything you need to start building the features that make your product unique. Volca is powered by a NodeJS API and a React frontend built by developers with over 10 years of experience building and running applications with this technology stack.
 
   - title: Who is Volca for?
-  - description: In short, Volca is built for developers who want to create software products fast. The template can be used by beginner and experienced developers alike and is built using the industry best practices with developer experience as a top priority.
+    description: In short, Volca is built for developers who want to create software products fast. The template can be used by beginner and experienced developers alike and is built using the industry best practices with developer experience as a top priority.
   
   - title: How do I get started creating a product with Volca?
-  - description: We have worked hard on documenting Volca and creating tutorials that are easy to follow. If you find yourself stuck, we will support you over email.
+    description: We have worked hard on documenting Volca and creating tutorials that are easy to follow. If you find yourself stuck, we will support you over email.
   
   - title: What if I regret my purchase?
-  - description: Don't worry. If you decide Volca is not the right choice for you, you can request a refund within 14 days and we will give you all your money back.
+    description: Don't worry. If you decide Volca is not the right choice for you, you can request a refund within 14 days and we will give you all your money back.
   
   - title: How is Volca hosted?
-  - description: Volca is hosted on AWS using a cloud native approach. We believe in utilizing the full potential of one cloud provider and AWS is our provider of choice. You are however free to modify the template to run on any cloud provider that works for you.
+    description: Volca is hosted on AWS using a cloud native approach. We believe in utilizing the full potential of one cloud provider and AWS is our provider of choice. You are however free to modify the template to run on any cloud provider that works for you.
   
   - title: How is Volca deployed?
-  - description: All of the infrastructure required to run Volca is defined using AWS CDK and deploys to an AWS account of your choosing. By default, GitHub Actions are configured to deploy to your environments when pushing code into your GitHub repository.
+    description: All of the infrastructure required to run Volca is defined using AWS CDK and deploys to an AWS account of your choosing. By default, GitHub Actions are configured to deploy to your environments when pushing code into your GitHub repository.
+  
+  - title: Who built Volca?
+    description: Volca was built by Oskar and Karl, both full stack developers with a combined programming experience of 20 years. They have worked on everything from fast growing apps to huge enterprise systems and all of their learnings have been poured into the development of Volca.
 
 #-------------------------------
 # Subscribe Settings
