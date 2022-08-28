@@ -12,6 +12,8 @@ menu__settings:
   menu__items:
     - title: "Home"
       url: "/"
+    - title: Docs
+      url: "/docs/"
     - title: "Blog"
       url: "/blog/"
 
