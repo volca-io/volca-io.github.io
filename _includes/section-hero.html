@@ -2,10 +2,46 @@
 <section class="hero">
   <div class="container">
     <div class="row">
-      <div class="col col-10 col-d-12">
+      <div class="col col-12">
         <div class="hero__inner">
-          <h1 class="hero__title">{{ site.data.settings.hero.hero__title }}</h1>
-          <p class="hero__description">{{ site.data.settings.hero.hero__description }}</p>
+          <div class="row">
+            <div class="col col-8">
+              <h1 class="hero__title">
+                {{ site.data.settings.hero.hero__title }}
+              </h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-9">
+              <p class="hero__description">
+                {{ site.data.settings.hero.hero__description }}
+              </p>
+            </div>
+            <div class="col col-3">
+              <a
+                class="button button--secondary"
+                style="width: 100%; text-align: center"
+                target="_blank"
+                href="https://app.staging.volca.io"
+                ><i
+                  class="ion ion-ios-rocket"
+                  style="color: #fff; font-size: 0.8em; margin-right: 4px"
+                ></i>
+                Demo</a
+              >
+              <a
+                class="button button--primary"
+                style="width: 100%; text-align: center; margin-top: 1em"
+                target="_blank"
+                href="https://buy.stripe.com/test_9AQ027bbNe8b60oeUU"
+                ><i
+                  class="ion ion-ios-cloud-download"
+                  style="color: #fff; font-size: 0.8em; margin-right: 4px"
+                ></i>
+                Download ($199)</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
