@@ -8,9 +8,9 @@ We help you get your product to production faster ever using the power of the Vo
 
 ![Volca Launch](/images/graph.png)
 
-### ⌛ Reduce time to V1 in production by months
+### ⚡ Reduce time to V1
 
-By using the Volca SaaS template, you get common components such as authentication, user management, automated deployments and much more out of the box. This enables us to ship faster than ever.
+By using the Volca SaaS template, you get common components such as authentication, user management, automated deployments and much more out of the box. This enables us to reduce the time to get your V1 in production by months.
 
 ### 💰 No startup cost
 
