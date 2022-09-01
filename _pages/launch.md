@@ -9,6 +9,9 @@ We help you get your product to the market faster ever using the power of the Vo
 ![Volca Launch](/images/graph.png)
 
 ⌛ Reduce time to V1 in production by months
+
 💰 No startup cost for recruiting
+
 🛠️ Minimize technical debt
+
 👩‍🔬 We help you find, coach and train permanent staff to continue development at lower burn rate
