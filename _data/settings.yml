@@ -12,6 +12,8 @@ menu__settings:
   menu__items:
     - title: "Home"
       url: "/"
+    - title: Launch 🚀
+      url: "/launch/"
     - title: Docs
       url: "/docs/"
     - title: "Blog"
