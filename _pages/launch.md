@@ -4,10 +4,10 @@ title: Launch
 permalink: /launch/
 ---
 
-Volca is a SaaS template powered by a NodeJS backend and a React frontend, both written in TypeScript.
+We help you get your product to the market faster ever using the power of our Volca SaaS template in combination with +15 years of experience building everything from mission critical enterprise systems to apps for fast growing startups.
 
-## What is Volca Launch?
 ![Volca Launch](/images/graph.png)
+
 - ⌛ Reduce time to v1 in production by months
 - 💰 No startup or recruiting cost
 - 🛠️ Minimize technical debt
