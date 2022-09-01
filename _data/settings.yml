@@ -12,7 +12,7 @@ menu__settings:
   menu__items:
     - title: "Home"
       url: "/"
-    - title: Launch 🚀
+    - title: Launch
       url: "/launch/"
     - title: Docs
       url: "/docs/"
