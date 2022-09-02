@@ -23,3 +23,7 @@ Using a proven tech stack and design patterns, we make sure you get a solid code
 ### 👩‍🔬 Long term staffing
 
 We help you find, coach and train permanent staff to continue development at lower burn rate.
+
+## Team
+
+{% include section-team.html %}
