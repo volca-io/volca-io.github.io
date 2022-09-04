@@ -6,7 +6,7 @@ permalink: /launch/
 
 We help you get your product to production faster ever using the power of the Volca SaaS template in combination with +15 years of experience building everything from mission critical enterprise systems to apps for fast growing startups.
 
-![Volca Launch](/images/graph.png)
+{% include plot.html %}
 
 ### ⚡ Reduce time to V1
 
