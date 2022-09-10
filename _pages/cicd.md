@@ -1,6 +1,7 @@
 ---
 layout: page
-title: CI/CD for SaaS Products | SaaS Deployment Strategy
+seo_title: CI/CD for SaaS Products | SaaS Deployment Strategy
+title: CI/CD for SaaS Products
 permalink: /cicd/
 ---
 
