@@ -33,42 +33,52 @@ portfolio:
     - icon: ion-ios-build
       title: CI/CD
       description: Deploy with confidence from the start with a solid CI/CD setup
+      link: /cicd
 
     - icon: ion-ios-lock
       title: Secure
       description: Built with best practice security
+      link: "#"
 
     - icon: ion-ios-card
       title: Subscriptions
       description: Enable your users to subscribe to your service
+      link: "#"
 
     - icon: ion-ios-briefcase
       title: Projects
       description: Enable your users to create projects and invite their team
+      link: "#"
 
     - icon: ion-ios-key
       title: Authentication
       description: Secure and reliable authentication out of the box
+      link: "#"
 
     - icon: ion-ios-pulse
       title: Monitoring
       description: Make sure your SaaS is running smoothly at all times
+      link: "#"
 
     - icon: ion-ios-search
       title: Logging
       description: Find and remedy production issues quickly
+      link: "#"
 
     - icon: ion-ios-cash
       title: Free Tier
       description: Free at rest infrastructure - no usage, no cost
+      link: "#"
 
     - icon: ion-ios-code
       title: Open Source
       description: Our core functionality is available open source
+      link: "#"
       
     - icon: ion-ios-cloud
       title: Serverless
       description: Focus on creating a great product instead of managing servers
+      link: /serverless
 
 #-------------------------------
 # FAQ Settings
