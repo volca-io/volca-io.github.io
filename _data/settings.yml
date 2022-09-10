@@ -65,6 +65,10 @@ portfolio:
     - icon: ion-ios-code
       title: Open Source
       description: Our core functionality is available open source
+      
+    - icon: ion-ios-cloud
+      title: Serverless
+      description: Focus on creating a great product instead of managing servers
 
 #-------------------------------
 # FAQ Settings
