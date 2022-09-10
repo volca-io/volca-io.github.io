@@ -27,10 +27,12 @@
         {% for item in site.data.settings.portfolio.portfolio__gallery %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <p style="font-size: 1.5em">
-              <i class="ion {{item.icon}}" style="color: #5e3aee"></i>
-              {{item.title}}
-            </p>
+            <a href="{{item.link}}">
+              <p style="font-size: 1.5em">
+                <i class="ion {{item.icon}}" style="color: #5e3aee"></i>
+                {{item.title}}
+              </p>
+            </a>
             <p>{{item.description}}</p>
           </div>
         </div>
