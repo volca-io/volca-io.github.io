@@ -6,7 +6,7 @@
   <title>
     {% if page.seo_title %}
     {{ page.seo_title }}
-    {% if page.title %}
+    {% elsif page.title %}
     {{ page.title }}
     {% else %}
     {{ site.data.settings.title }}
