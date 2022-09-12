@@ -4,8 +4,6 @@ title: Serverless SaaS Template
 permalink: /serverless/
 ---
 
-# Serverless SaaS Template
-
 Volca is a serverless SaaS template that gives you everything you need to build serverless apps at light speed.
 
 ## Benefits of using a serverless tech stack
