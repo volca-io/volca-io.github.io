@@ -3,7 +3,7 @@ layout: post
 title: Why you should open source your product
 description: Learn about the opportunities that you can unlock by making (parts of) your product open source
 date: 2022-09-18 15:01:35 +0300
-image: '/images/code.jpg'
+image: '/images/os.png'
 tags: [open source, saas, nodejs, api]
 published: true
 ---
