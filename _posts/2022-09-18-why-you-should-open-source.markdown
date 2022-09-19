@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why you should open source your product
+title: How to Get Customers by Making Your Product Open Source
 description: Learn about the opportunities that you can unlock by making (parts of) your product open source
 date: 2022-09-18 15:01:35 +0300
 tags: []
