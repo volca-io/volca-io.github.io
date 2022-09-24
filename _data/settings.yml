@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # Site Settings
-title: Node and React SaaS Template - Volca
+title: Node.js SaaS Boilerplate with React - Volca
 logo: /images/logo-light.svg
 author: Volca
 description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
@@ -22,7 +22,7 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Node and React SaaS Template
+  hero__title: Node.js SaaS Boilerplate with React
   hero__description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
 
 #-------------------------------
