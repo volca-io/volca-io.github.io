@@ -1,16 +1,8 @@
 ---
-layout: page
-title: Docs
-permalink: /docs/
+layout: doc
+title: Tech Stack
+permalink: /docs/tech-stack
 ---
-
-Volca is a SaaS template powered by a NodeJS backend and a React frontend, both written in TypeScript.
-
-## Getting Started
-
-To get started developing a SaaS application with Volca, read the [getting started guide](#).
-
-## Stack
 
 The tech stack that Volca is built on was chosen with the following in mind:
 
@@ -47,22 +39,3 @@ Read more about the tools and libraries we use to power Volca below.
 | Koa        | API framework                | Simple exposure of API actions with error handling and middlewares. |
 | Knex       | Query builder for SQL        | Easily perform secure database queries without writing pure SQL     |
 | Serverless | API infrastructure framework | Define API infrastructure as code and deploy it through CLI         |
-
-## File Structure
-
-Volca is structured as a monorepo. This means the code for both backend and frontend is in the same repository. The reasons for choosing to build Volca as a monorepo are:
-
-- One repository to pull every time you want to build a new feature
-- A Pull Request can include changes in both the frontend and the backend
-- Configuration files for code formatting, linting etc. can be kept in sync easier
-- Automated jobs can be configured and triggered in a single place
-
-This structure is made possible by using [Yarn Workspaces](https://yarnpkg.com/features/workspaces)
-
-### Frontend
-
-All frontend apps reside in the `/clients` folder. When you download Volca for the first time, there will be a single app - `web`. This is the default customer dashboard that you get with Volca which includes authentication, payments, project management and user settings. If you would like to add a separate application, for example an internal dashboard, you simply create a new React app in the `/clients` folder.
-
-### Backend
-
-All backend services reside in the `/services` folder. When you download Volca for the first time, there will be a single service - `api`. This is the default API that powers the customer dashboard. If you want to create a new service, simply create another one in the `/services` folder.

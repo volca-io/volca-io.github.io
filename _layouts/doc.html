@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="page__info">
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+  <div class="row">
+    <div class="col col-2">
+      <h2>Overview</h2>
+      <ul>
+        {% for page in site.pages %} {% if page.layout == 'doc' %}
+        <li>
+          <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </div>
+    <div class="col col-10">
+      {% if page.image %}
+      <div class="row">
+        <div class="col col-12">
+          <div class="page-image">
+            <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}" />
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <article class="page">
+        <div class="page__content">{{ content }}</div>
+      </article>
+    </div>
+  </div>
+</div>
+<!-- end page -->
+
+{% include section-subscribe.html %}
