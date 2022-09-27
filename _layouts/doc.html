@@ -15,7 +15,7 @@ layout: default
 <!-- begin page -->
 <div class="container animate">
   <div class="row">
-    <div class="col col-2">
+    <div class="col col-2 col-t-12">
       <h2>Overview</h2>
       <ul>
         {% for page in site.pages %} {% if page.layout == 'doc' %}
@@ -25,7 +25,7 @@ layout: default
         {% endif %} {% endfor %}
       </ul>
     </div>
-    <div class="col col-10">
+    <div class="col col-10 col-t-12">
       {% if page.image %}
       <div class="row">
         <div class="col col-12">
