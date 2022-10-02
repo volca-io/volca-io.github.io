@@ -35,6 +35,49 @@ Learn how to use Volca Core to jump start your new project.
 
 ### Creating an API endpoint
 
-TODO
+#### 1. Create an action
+
+An action is essentially the code that runs when you hit an API endpoint. Actions reside in the folder `services/api/src/actions`. Actions typically call services to retrieve or store data and handle the response back to the requestor. Add an action by:
+
+Creating a file for your action, e.g. `services/api/src/actions/my-actions/my-action.ts`.
+
+Define your action in this file, here you can call services and return various responses depending on what the service responds:
+
+```
+import { container } from 'tsyringe';
+
+import { useApiAction } from '../utils/api-action';
+import { StatusService } from '../../services';
+
+export const myAction = useApiAction(async () => {
+  const statusService = container.resolve(StatusService);
+  const status = await statusService.get();
+
+  return {
+    body,
+  };
+});
+
+```
+
+#### 2. Create a route
+
+A route is the actual path and the HTTP method that should invoke your action. Routes are defined in `services/api/src/router.ts`. Add a route by:
+
+Importing the action in `router.ts`:
+
+```
+import { myAction } from './actions/my-actions/my-action';
+```
+
+Defining a new route
+
+```
+router.get('/status', statusAction);
+```
+
+This will enable you to call your action by requesting `GET /status`.
 
 ### Creating a database entity
+
+Coming soon
