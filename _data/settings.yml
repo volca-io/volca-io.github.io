@@ -55,10 +55,10 @@ portfolio:
       description: Secure and reliable authentication out of the box
       link: "/authentication"
 
-    - icon: ion-ios-pulse
-      title: Monitoring
-      description: Make sure your SaaS is running smoothly at all times
-      link: "#"
+    #- icon: ion-ios-pulse
+    #  title: Monitoring
+    #  description: Make sure your SaaS is running smoothly at all times
+    #  link: "#"
 
     - icon: ion-ios-search
       title: Logging
