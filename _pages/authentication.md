@@ -21,7 +21,7 @@ In this article, we will go through how to set up password based authentication 
 
 ## JSON Web tokens
 
-So what's a JSON web token? Basically it's a way of securely transmitting information between two parties. The security aspect comes from the something called a signature. The signature is based of the body of the token, that contains a set of claims. These claims can be anything that you can put into a JSON object, for example a username.
+So what's a JSON web token? Basically it's a way of securely transmitting information between two parties. The security aspect comes from something called a signature. The signature is based on the body of the token, which contains a set of claims. These claims can be anything that you can put into a JSON object, for example a username.
 
 If someone were to tamper with the token, for example by changing the username in the token, then the signature would no longer be valid and the token can be rejected.
 
@@ -250,6 +250,6 @@ We will see a response like this from the API
 
 Hope this article helped you to understand how to secure APIs with JSON web tokens! Here are some final pointers for you to succeed with your implementation.
 
-- Make sure to keep the signing key secure. Don't check it in to your repository. If someone were to get a hold of your signing key, they could sign their own tokens and get access to anything in your service. So use a cryptographically secure string with a proper length.
+- Make sure to keep the signing key secure. Don't check it into your repository. If someone were to get a hold of your signing key, they could sign their own tokens and get access to anything in your service. So use a cryptographically secure string with a proper length.
 - Access tokens are powerful. If you are using them to secure something important, make sure they have a short lifetime and make use of refresh tokens.
 - Access tokens are cool since you can send them to different parties and let them validate them. You can do this by publishing JSON web keys (JWKs). You will then have a private key you sign the tokens with and a public key you can publish to let others validate your tokens!
