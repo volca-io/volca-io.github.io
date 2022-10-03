@@ -6,7 +6,7 @@ permalink: /open-source/
 
 Volca Core is an Open Source Serverless API boilerplate built with Node.js / TypeScript.
 
-[<img src="images/github-light.png">](https://github.com/volca-io/volca-core)
+[<img src="/images/github-light.png">](https://github.com/volca-io/volca-core)
 
 ## Tech Stack
 
