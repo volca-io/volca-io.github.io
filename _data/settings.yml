@@ -63,7 +63,7 @@ portfolio:
     - icon: ion-ios-search
       title: Logging
       description: Find and remedy production issues quickly
-      link: "#"
+      link: "/logging"
 
     - icon: ion-ios-cash
       title: Free Tier
