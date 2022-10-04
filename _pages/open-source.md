@@ -79,7 +79,3 @@ router.get('/status', statusAction);
 ```
 
 This will enable you to call your action by requesting `GET /status`.
-
-### Creating a database entity
-
-Coming soon
