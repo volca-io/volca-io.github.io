@@ -1,7 +1,8 @@
 ---
 layout: page
-seo_title: Logging in node.js | Logging for SaaS products
+seo_title: Logging for SaaS products | TypeScript logging strategy
 title: Logging in node.js
+description: Logging is an essential part of managing your SaaS application. Learn how to implement a best practice logging strategy to be able any issues in your product.
 permalink: /logging/
 ---
 

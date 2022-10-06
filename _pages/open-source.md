@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Open Source Node.js Serverless API Boilerplate
+description: Volca Core is an Open Source Serverless API boilerplate built with Node.js / TypeScript. It comes with a serverless API and CI/CD already implemented.
 permalink: /open-source/
 ---
 

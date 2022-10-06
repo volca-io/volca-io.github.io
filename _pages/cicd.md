@@ -2,6 +2,7 @@
 layout: page
 seo_title: CI/CD for SaaS Products | SaaS Deployment Strategy
 title: CI/CD for SaaS Products
+description:Ship features at rocket speed for your SaaS product by implementing a simple and reliable CI/CD workflow using GitHub Actions
 permalink: /cicd/
 ---
 
