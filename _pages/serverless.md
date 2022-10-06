@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Serverless SaaS Template
-description: Serverless technologies are essential for a new SaaS product to be able to launch with minimal cost and being able to scale when attracting more users.
+description: Serverless technologies are essential for a new SaaS product to be able to launch with minimal cost and being able to scale up when attracting more users.
 permalink: /serverless/
 ---
 
