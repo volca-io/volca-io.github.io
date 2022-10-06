@@ -1,10 +1,4 @@
 <!-- begin how -->
-<script>
-  if (window.location.hash === '#technology-api') {
-    const technologyApiSection = document.getElementById('technology-api')
-    document.getElementById('main-content').prepend(technologyApiSection)
-  }
-</script>
 <section class="section" id="technology-api">
   <div class="container">
     <div class="row">
@@ -49,4 +43,9 @@
     </div>
   </div>
 </section>
+<script>
+  if (window.location.hash === '#api') {
+    document.getElementById('main-content').prepend(document.getElementById('technology-api') || '');
+  }
+</script>
 <!-- end how -->
