@@ -1,7 +1,8 @@
 ---
 layout: page
-seo_title: JWT authentication for SaaS Products | Node.js JWT authentication
-title: JWT authentication in node.js
+seo_title: Authentication in SaaS products | JWT authentication in Typescript
+title: JWT authentication in Typescript
+description: In this article we will discover how to quickly implement JWT authentication in your SaaS product with the help of Typescript and Koa.
 permalink: /authentication/
 ---
 

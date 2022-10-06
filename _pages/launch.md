@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Volca Launch
+description: Reduce time to market for your SaaS product with months with Volca Launch. We help you get your product to production faster than ever using the power of the Volca SaaS template.
 permalink: /launch/
 ---
 
-We help you get your product to production faster ever using the power of the Volca SaaS template in combination with +15 years of experience building everything from mission critical enterprise systems to apps for fast growing startups.
+We help you get your product to production faster than ever using the power of the Volca SaaS template in combination with +15 years of experience building everything from mission critical enterprise systems to apps for fast growing startups.
 
 {% include plot.html %}
 
