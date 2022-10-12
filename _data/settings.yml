@@ -48,7 +48,7 @@ portfolio:
     - icon: ion-ios-briefcase
       title: Multi tenancy
       description: Enable your users to create projects and invite their team
-      link: "#"
+      link: "/multitenancy"
 
     - icon: ion-ios-key
       title: Authentication
