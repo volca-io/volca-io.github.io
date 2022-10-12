@@ -4,7 +4,7 @@
 title: Node.js SaaS Boilerplate with React - Volca
 logo: /images/logo-light.svg
 author: Volca
-description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infrastructure as code with AWS CDK.
+description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infra with AWS CDK. Build a SaaS in weeks.
 
 #-------------------------------
 # Menu Settings
@@ -46,7 +46,7 @@ portfolio:
       link: "#"
 
     - icon: ion-ios-briefcase
-      title: Projects
+      title: Multi tenancy
       description: Enable your users to create projects and invite their team
       link: "#"
 
