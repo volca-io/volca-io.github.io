@@ -4,7 +4,7 @@
 title: Node.js SaaS Boilerplate with React - Volca
 logo: /images/logo-light.svg
 author: Volca
-description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
+description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infrastructure as code with AWS CDK.
 
 #-------------------------------
 # Menu Settings
