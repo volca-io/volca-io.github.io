@@ -1,0 +1,16 @@
+<!-- begin banner -->
+{% if site.data.settings.banner %}
+<div class="banner">
+  <span>{{ site.data.settings.banner.text }}</span>
+
+  {%if site.data.settings.banner.button %}
+  <a
+    target="_blank"
+    href="{{ site.data.settings.banner.button.href }}"
+  >
+   {{ site.data.settings.banner.button.text}}
+  </button>
+  {% endif %}
+</div>
+{% endif %}
+<!-- end header -->

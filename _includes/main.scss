@@ -22,16 +22,17 @@
     2.1-Base
 :: 3-Modules
     3.1-Scroll Button Top
-    3.2-Header
-    3.3-Pagination
-    3.4-Footer
-    3.5-Gallery
-    3.6-Section-Hero
-    3.7-Section-Portfolio
-    3.8-Section-Subscribe
-    3.9-Sections
-    3.10-Article
-    3.11-Contact
+    3.2-Banner
+    3.3-Header
+    3.4-Pagination
+    3.5-Footer
+    3.6-Gallery
+    3.7-Section-Hero
+    3.8-Section-Portfolio
+    3.9-Section-Subscribe
+    3.10-Sections
+    3.11-Article
+    3.12-Contact
 :: 4-Layouts
     4.1-Home Page
     4.2-Post Page
@@ -76,25 +77,27 @@
 ======================= */
 /* >>>>>>>>>>>>>> :: 3.1-Scroll Button Top <<<<<<<<<<<<<<< */
 @import '3-modules/scroll-button-top';
-/* >>>>>>>>>>>>>> :: 3.2-Header <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.2-Banner <<<<<<<<<<<<<<< */
+@import '3-modules/banner';
+/* >>>>>>>>>>>>>> :: 3.3-Header <<<<<<<<<<<<<<< */
 @import '3-modules/header';
-/* >>>>>>>>>>>>>> :: 3.3-Pagination <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.4-Pagination <<<<<<<<<<<<<<< */
 @import '3-modules/pagination';
-/* >>>>>>>>>>>>>> :: 3.4-Footer <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.5-Footer <<<<<<<<<<<<<<< */
 @import '3-modules/footer';
-/* >>>>>>>>>>>>>> :: 3.5-Gallery <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.6-Gallery <<<<<<<<<<<<<<< */
 @import '3-modules/gallery';
-/* >>>>>>>>>>>>>> :: 3.6-Section-Hero <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.7-Section-Hero <<<<<<<<<<<<<<< */
 @import '3-modules/section-hero';
-/* >>>>>>>>>>>>>> :: 3.7-Section-Portfolio <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.8-Section-Portfolio <<<<<<<<<<<<<<< */
 @import '3-modules/section-portfolio';
-/* >>>>>>>>>>>>>> :: 3.8-Section-Subscribe <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.9-Section-Subscribe <<<<<<<<<<<<<<< */
 @import '3-modules/section-subscribe';
-/* >>>>>>>>>>>>>> :: 3.9-Sections <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.10-Sections <<<<<<<<<<<<<<< */
 @import '3-modules/sections';
-/* >>>>>>>>>>>>>> :: 3.10-Article <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.11-Article <<<<<<<<<<<<<<< */
 @import '3-modules/article';
-/* >>>>>>>>>>>>>> :: 3.11-Contact <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.12-Contact <<<<<<<<<<<<<<< */
 @import '3-modules/contact';
 
 
