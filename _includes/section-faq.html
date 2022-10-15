@@ -17,10 +17,12 @@
       {% for item in site.data.settings.faq %}
       <div class="row">
         <div class="col col-12">
-          <p style="font-size: 1.5em">
-            {{item.title}}
-          </p>
-          <p>{{item.description}}</p>
+          <div class="portfolio__item">
+            <p class="portfolio__item__title">
+              {{item.title}}
+            </p>
+            <p>{{item.description}}</p>
+          </div>
         </div>  
       </div>
       {% endfor %}
