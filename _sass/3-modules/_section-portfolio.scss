@@ -103,6 +103,11 @@
   margin-bottom: ($base-spacing-unit * 2);
   border-radius: 16px;
   background: var(--background-alt-color);
+
+  .portfolio__item__title {
+    color: var(--link-color);
+    font-size: 1.5em;
+  }
 }
 
 .portfolio__link {
