@@ -6,6 +6,8 @@ description: Minimize the cost of infrastructure to give your SaaS a maximum cha
 permalink: /deploy-your-saas-for-free/
 ---
 
+![Free tier services](../images/free-tier.png)
+
 Volca is a SaaS template that minimizes the costs of deploying your product to the cloud by utilizing [AWS Free Tier](https://aws.amazon.com/free/). Give your product a maximum chance of succeeding by minimizing the costs of deploying and running your application.
 
 ## What are the costs of running a SaaS product?
