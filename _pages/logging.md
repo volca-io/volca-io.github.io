@@ -3,12 +3,13 @@ layout: page
 seo_title: Node.js / TypeScript Logging on AWS for SaaS Products
 title: Node.js / TypeScript Logging on AWS for SaaS Products
 description: Logging is an essential part of managing your SaaS application. Learn how to implement a best practice logging strategy to be able to quickly discover issues in your product.
+tldrs: ["Use a structured format such as JSON to be able to query your logs using CloudWatch Insights", "Add a request ID to your log rows to help you  track down production issues", "Use log levels to avoid cluttering your logs and save CloudWatch cost", "Use a tried and tested logging library such as Winston to implement your logger"]
 permalink: /logging/
 ---
 
 ![Logging](/images/logging.png "Logging")
 
-{% include tldr.html content="Blabla" %}
+{% include tldr.html %}
 
 Volca is a [SaaS boilerplate template](https://volca.io) that provides support for best practice logging out of the box. Leverage Volca to avoid building your own logging solution and get your product to market faster. Check out the demo [here](https://app.demo.volca.io).
 
