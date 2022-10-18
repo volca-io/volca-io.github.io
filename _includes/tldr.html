@@ -7,7 +7,11 @@
           <p class="portfolio__item__title">
             TL;DR
           </p>
-          <p>{{include.content}}</p>
+          <ul>
+          {% for tldr in page.tldrs %}
+              <li>{{ tldr }}</li>
+          {% endfor %}
+          </ul>
         </div>
       </div>  
     </div>
