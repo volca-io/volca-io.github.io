@@ -1,16 +1,24 @@
 ---
 layout: page
-seo_title: Node.js / TypeScript Logging for SaaS Products
-title: Node.js / TypeScript Logging for SaaS Products
+seo_title: Node.js / TypeScript Logging on AWS for SaaS Products
+title: Node.js / TypeScript Logging on AWS for SaaS Products
 description: Logging is an essential part of managing your SaaS application. Learn how to implement a best practice logging strategy to be able to quickly discover issues in your product.
 permalink: /logging/
 ---
 
-Volca is a SaaS template that provides support for structured logging out of the box. Leverage Volca to avoid building your own logging solution and get your product out to market faster. Check out the demo [here](https://app.demo.volca.io)
+Volca is a SaaS template that provides support for structured logging out of the box. Leverage Volca to avoid building your own logging solution and get your product to market faster. Check out the demo [here](https://app.demo.volca.io).
 
-In this article we will go through how to set up logging in your node.js application to get the most out of your logging.
+In this article, we will go through how we set up logging for Volca and how you can do the same to get the most out of your logging.
 
-## Why do we need logging?
+## What we want to achieve
+
+While logging might sound like the most boring thing ever to implement, it is critical to be able to debug your SaaS application and fix bugs before too many users are affected. In the early stages of building your SaaS, keeping your few customers happy is very important to spread the word and get testimonials to post on your site. Here are the key reasons you need to get logging right in a SaaS product:
+
+- Enables monitoring of issues in your product
+- Debugging issues in your code
+- Providing customer support
+
+## Debugging
 
 Imagine you deploy your application to production, everything is going well with your new start-up, but then one of your customers tells you that he is getting some errors while using your product. How do we find out what went wrong?
 
