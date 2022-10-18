@@ -6,7 +6,7 @@ description: Logging is an essential part of managing your SaaS application. Lea
 permalink: /logging/
 ---
 
-Volca is a SaaS boilerplate template that provides support for best practice logging out of the box. Leverage Volca to avoid building your own logging solution and get your product to market faster. Check out the demo [here](https://app.demo.volca.io).
+Volca is a [SaaS boilerplate template](https://volca.io) that provides support for best practice logging out of the box. Leverage Volca to avoid building your own logging solution and get your product to market faster. Check out the demo [here](https://app.demo.volca.io).
 
 In this article, we will go through how we set up logging for Volca and how you can do the same to get the most out of your logging.
 
