@@ -3,11 +3,17 @@ layout: page
 seo_title: Node.js / TypeScript Logging on AWS for SaaS Products
 title: Node.js / TypeScript Logging on AWS for SaaS Products
 description: Logging is an essential part of managing your SaaS application. Learn how to implement a best practice logging strategy to be able to quickly discover issues in your product.
-tldrs: ["Use a structured format such as JSON to be able to query your logs using CloudWatch Insights", "Add a request ID to your log rows to help you  track down production issues", "Use log levels to avoid cluttering your logs and save CloudWatch cost", "Use a tried and tested logging library such as Winston to implement your logger"]
+tldrs:
+  [
+    "Use a structured format such as JSON to be able to query your logs using CloudWatch Insights",
+    "Add a request ID to your log rows to help you  track down production issues",
+    "Use log levels to avoid cluttering your logs and save CloudWatch cost",
+    "Use a tried and tested logging library such as Winston to implement your logger",
+  ]
 permalink: /logging/
 ---
 
-![Logging](/images/logging.png "Logging")
+{% include testimonial.html title='Karl, SaaS Founder' image='https://volca.io/images/karl.jpg' content='When I shipped my first SaaS product, it was riddled with bugs ("Minimum Viable Product" 🤠). As my first paying users were coming in, support requests were piling up. After I implemented the logging strategy I outline in this article, I was finally able to squash the bugs one by one and today I rarely get any support requests.' %}
 
 {% include tldr.html %}
 
@@ -28,7 +34,6 @@ While logging might sound like the most boring thing ever to implement, it is cr
 - Structure
 - Traceability
 - Log levels
-
 
 Below, we deep dive into each section.
 
@@ -90,6 +95,8 @@ fields @timestamp, @message
 ```
 
 This can save you a lot of time looking for the root cause of production issues.
+
+![Logging](/images/logging.png "Logging")
 
 ## Log levels
 

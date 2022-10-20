@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="article col col-12" style="padding: 48px">
+    <div class="article__inner row">
+      <div class="article__head col-3">
+        <img
+          src="{{ include.image }}"
+          alt="{{ include.title }}"
+          style="height: 150px; margin-bottom: 16px"
+        />
+      </div>
+
+      <div class="article__content col-9">
+        <h2 class="article__title">{{ include.title }}</h2>
+        <p class="article__excerpt">{{ include.content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
