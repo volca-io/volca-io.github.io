@@ -33,6 +33,11 @@ One of the most important things with your multi tenancy setup will be how we de
 
 ![Tenant database schema](../images/tenant-schema.png)
 
+- A project is connected to an admin through the `admin_id` column that points to the `users.id` column
+- A non-admin user is connected to a project through the `project_users` table
+- A user has an `has_active_subscription` attribute that is synced with Stripe through a webhook (we will go through how this is set up in the next section)
+- A user has a `stripe_id` column that holds the ID of the related customer object in Stripe
+
 ## Setting up the project
 
 Let's start setting up a multi tenant API with [Koa](https://koajs.com/) and [Knex](https://knexjs.org/)
