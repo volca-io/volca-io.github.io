@@ -1,0 +1,20 @@
+<!-- begin tldr -->
+<div class="portfolio__gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="portfolio__item">
+          <p class="portfolio__item__title">
+            TL;DR
+          </p>
+          <ul>
+          {% for tldr in page.tldrs %}
+              <li>{{ tldr }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+<!-- end tldr -->

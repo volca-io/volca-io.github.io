@@ -2,7 +2,7 @@
 layout: page
 seo_title: Node.js / TypeScript SaaS multi tenancy
 title: Multi Tenant SaaS with Node.js / TypeScript
-description: Multi tenancy is a key aspect for scaling your SaaS product by allowing your solution to serve multiple users groups from the same application.
+description: Multi tenancy is a key aspect for scaling your SaaS product by allowing your solution to serve multiple user groups from the same application.
 permalink: /multitenancy/
 ---
 

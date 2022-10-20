@@ -8,6 +8,10 @@ permalink: /cicd/
 
 Volca is a SaaS template that comes with a smooth CI/CD setup powered by GitHub Actions out of the box. Ship features faster for your SaaS using an automated deployment strategy.
 
+Learn how we designed our CI/CD setup with the goal of shipping changes in a fast, reliable and developer friendly way.
+
+![CI/CD](../images/cicd.png)
+
 ## Branching strategy
 
 The first step to design a CI/CD setup for your SaaS is to define a branching strategy. There are many ways of working with branches to make sure you work in a reliable and developer friendly way. Building Volca, we have focused on simplicity and developer experience while maintaining a reliable deployment flow. That is why we have went for a trunk based strategy where a single branch, the `main` branch, is the one that all developers branch off from.
