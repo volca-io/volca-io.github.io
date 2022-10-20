@@ -6,4 +6,5 @@
 - [ ] My article has a catchy headline (e.g. "How To X", "How We Used X to Get 10 000 Users", "Top 10 X 2022")
 - [ ] My article has at least one unique image (use Diagrams.net for example)
 - [ ] My article has at least one link to another page on Volca.io
+- [ ] My article has a testimonial with a short story from the author if applicable
 - [ ] I solemnly swear to post my article to [Hashnode.com](https://hashnode.com/) (with canonical tag), [Dev.to](https://dev.to/) (with canonical tag), [Hacker News](https://news.ycombinator.com/), [Reddit](https://www.reddit.com/), [Indie Hackers][https://www.indiehackers.com/] when it is published
