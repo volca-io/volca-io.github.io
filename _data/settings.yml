@@ -9,7 +9,7 @@ banner:
   text: Get 50% off with the code EARLYBIRD 💰
   button:
     text: Download
-    href: https://buy.stripe.com/5kAg2a3Dk1407kYcMM
+    href: https://buy.stripe.com/fZe2bk2zg140cFi8wx
 
 #-------------------------------
 # Menu Settings
@@ -84,6 +84,11 @@ portfolio:
       title: Serverless
       description: Focus on creating a great product instead of managing servers
       link: /serverless
+      
+    - icon: ion-ios-moon
+      title: Dark Mode
+      description: "Yes, it's a feature 😎"
+      link: "#"
 
 #-------------------------------
 # FAQ Settings
