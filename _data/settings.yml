@@ -85,7 +85,7 @@ portfolio:
       description: Focus on creating a great product instead of managing servers
       link: /serverless
       
-     - icon: ion-ios-moon
+    - icon: ion-ios-moon
       title: Dark Mode
       description: "Yes, its'a feature 😎"
       link: "#"
