@@ -4,7 +4,7 @@ title: Configure AWS
 permalink: /docs/configure-aws/
 ---
 
-Follow the below steps to deploy your application to AWS and make it accessible to your future users.
+Follow the below steps to deploy your application to AWS and make it accessible to your users.
 
 ### Create an AWS account
 
