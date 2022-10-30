@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: File Structure
-permalink: /docs/file-structure
+permalink: /docs/file-structure/
 ---
 
 ## File Structure

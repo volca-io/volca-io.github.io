@@ -70,7 +70,7 @@ portfolio:
     - icon: ion-ios-build
       title: CI/CD
       description: Deploy with confidence from the start with a solid CI/CD setup
-      link: /cicd
+      link: /cicd/
 
     - icon: ion-ios-lock
       title: Secure
@@ -85,12 +85,12 @@ portfolio:
     - icon: ion-ios-briefcase
       title: Multi tenancy
       description: Enable your users to create projects and invite their team
-      link: "/multitenancy"
+      link: /multitenancy/
 
     - icon: ion-ios-key
       title: Authentication
       description: Secure and reliable authentication out of the box
-      link: "/authentication"
+      link: /authentication/
 
     #- icon: ion-ios-pulse
     #  title: Monitoring
@@ -100,26 +100,26 @@ portfolio:
     - icon: ion-ios-search
       title: Logging
       description: Find and remedy production issues quickly
-      link: "/logging"
+      link: /logging/
 
     - icon: ion-ios-cash
       title: Free Tier
       description: Free at rest infrastructure - no usage, no cost
-      link: "/deploy-your-saas-for-free"
+      link: /deploy-your-saas-for-free/
 
     - icon: ion-ios-code
       title: Open Source
       description: Our core functionality is available open source
-      link: /open-source
+      link: /open-source/
 
     - icon: ion-ios-cloud
       title: Serverless
       description: Focus on creating a great product instead of managing servers
-      link: /serverless
+      link: /serverless/
 
     - icon: ion-ios-moon
       title: Dark Mode
-      description: "Yes, it's a feature 😎"
+      description: Yes, it's a feature 😎
       link: "#"
 
 #-------------------------------
