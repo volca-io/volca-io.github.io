@@ -4,12 +4,6 @@ title: Deploy Infrastructure
 permalink: /docs/deploy-infrastructure/
 ---
 
-TODO:
-
-- Write about the volca.config file and how environments are defined
-- Re-run deploy without custom domain
-- Run deploy with custom domain
-
 ## Deploy a new environment
 
 The first step to get your environment up and running is to follow this guide for each environment that you want to deploy. After this has been completed, GitHub Actions will automatically deploy any new changes that you push to your repository. We recommend setting up a `staging` and a `production` environment. This guide uses `staging` as an example. Read more about [how we set up our environments and CI/CD here](/cicd).
