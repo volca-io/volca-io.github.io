@@ -43,4 +43,4 @@ This command will make the Volca web app available on `http://127.0.0.1:3000` an
 
 Congrats, now you can start hacking using your favorite IDE!
 
-Once you are ready to deploy your Volca application to AWS, follow the `deploying to AWS` guide.
+Once you are ready to push your first commit and deploy your code to AWS, start following the steps in the sidebar.

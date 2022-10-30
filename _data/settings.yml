@@ -35,14 +35,17 @@ hero:
 docs:
   - title: Getting started
     url: /docs/
-  - title: Configure GitHub
-    url: /docs/configure-github/
-  - title: Configure AWS
-    url: /docs/configure-aws/
-  - title: Deploy Infrastructure
-    url: /docs/deploy-infrastructure/
+    subpages:
+      - title: 1. Configure GitHub
+        url: /docs/configure-github/
+      - title: 2. Configure AWS
+        url: /docs/configure-aws/
+      - title: 3. Deploy Infrastructure
+        url: /docs/deploy-infrastructure/
   - title: Tech Stack
     url: /docs/tech-stack/
+  - title: File Structure
+    url: /docs/file-structure/
   #- title: Building a feature
   #  url: /docs/building-a-feature/
   #  subpages:
@@ -56,11 +59,6 @@ docs:
   #      url: /docs/pages
   #    - title: Hooks
   #      url: /docs/hooks
-
-  - title: Deploy Infrastructure
-    url: /docs/deploy-infrastructure/
-  - title: File Structure
-    url: /docs/file-structure/
 
 #-------------------------------
 # Portfolio Settings

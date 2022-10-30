@@ -17,12 +17,12 @@ layout: default
   <div class="row">
     <div class="col col-2 col-t-12">
       <h2>Content</h2>
-      <ul>
+      <ul style="list-style-type: none; margin-left: 0; padding-left: 0">
         {% for doc in site.data.settings.docs %} {% if page.layout == 'doc' %}
         <li>
           <a href="{{ doc.url }}">{{ doc.title }}</a>
           {% for subpage in doc.subpages %} {% if doc.subpages %}
-          <ul>
+          <ul style="list-style-type: none; margin-top: 12px">
             <li>
               <a href="{{ subpage.url }}">{{ subpage.title }}</a>
             </li>
