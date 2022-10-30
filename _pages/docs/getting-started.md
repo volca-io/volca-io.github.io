@@ -1,14 +1,10 @@
 ---
 layout: doc
-title: Overview
+title: Getting started
 permalink: /docs/
 ---
 
-Volca is a SaaS template powered by a NodeJS backend and a React frontend, both written in TypeScript.
-
-## Getting started
-
-To get started developing a SaaS application with Volca, complete the below steps.
+Volca is a SaaS template powered by a NodeJS backend and a React frontend, both written in TypeScript. To get started developing a SaaS application with Volca, complete the below steps.
 
 ### Download
 
@@ -26,8 +22,6 @@ Once you have purchased Volca, you will receive a link to a zip archive containi
   - Docker is used to run the Postgres database server locally
 - [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
   - AWS CLI is used to deploy your application to AWS
-- [Install AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
-  - AWS CDK is used to manage infrastructure as code in AWS
 
 ### Install dependencies
 
@@ -47,6 +41,6 @@ yarn start
 
 This command will make the Volca web app available on `http://127.0.0.1:3000` and the backend API available on `http://localhost:4000`.
 
-Congrats, now you can start hacking!
+Congrats, now you can start hacking using your favorite IDE!
 
 Once you are ready to deploy your Volca application to AWS, follow the `deploying to AWS` guide.

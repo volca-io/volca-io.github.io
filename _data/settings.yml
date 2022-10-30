@@ -33,9 +33,9 @@ hero:
 #-------------------------------
 # Docs Settings
 docs:
-  - title: Overview
+  - title: Getting started
     url: /docs/
-  - title: Cofigure GitHub
+  - title: Configure GitHub
     url: /docs/configure-github/
   - title: Configure AWS
     url: /docs/configure-aws/

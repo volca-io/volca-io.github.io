@@ -6,7 +6,7 @@ permalink: /docs/configure-aws/
 
 Follow the below steps to deploy your application to AWS and make it accessible to your future users.
 
-### Creating an AWS account
+### Create an AWS account
 
 To get started, you need to create an AWS account. Follow the (official AWS documentation)[https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/] on how to set one up.
 
@@ -14,7 +14,7 @@ To get started, you need to create an AWS account. Follow the (official AWS docu
 
 Once you have created an AWS account, you will be signed in as the root user. This user has access to _everything_ inside the account and should not be used for anything other than administrating the account. For your everyday access, an IAM user should be created.
 
-Follow the (instructions from AWS on how to create an IAM user)[https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html] with the following configuration:
+Follow the [instructions from AWS on how to create an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) with the following configuration:
 
 - Access key - Allow programmatic access
 - Password - AWS Management Console access
