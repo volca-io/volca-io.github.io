@@ -26,7 +26,7 @@ The next time you log in to the AWS Console, you should always use the user that
 
 ### Set up the AWS CLI with your access keys
 
-To get programmatic access to your AWS account, we need to create a set of access keys that will be used when deploying from your local machine.
+To get programmatic access to your AWS account, we need to configure a set of access keys that will be used when deploying from your local machine.
 
 Open the file `~/.aws/config` in a text editor and append the following:
 
@@ -36,7 +36,7 @@ region=eu-west-1
 output=json
 ```
 
-The `region` property will decide which AWS region your Volca application will be deployed to. To help you choose a region there is a [guide from AWS](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/), however we suggest choosing one that you think will be closest to your end users.
+The `region` property will decide which AWS region your Volca application will be deployed to. To help you choose a region there is a [guide from AWS](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/), however we suggest to pick the region that will be closest to your end users.
 
 `[volca]` is the name of the AWS profile, feel free to change it to whatever you want.
 
