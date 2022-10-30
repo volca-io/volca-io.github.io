@@ -47,7 +47,7 @@ yarn infra:deploy -s <environment> --stacks <app-name>-<environment>-routing-sta
 
 #### Point your domain to the hosted zones name servers
 
-After the stack has been deployed, a list of name servers for your Hosted Zone will be displayhed. For example:
+After the stack has been deployed, a list of name servers for your Hosted Zone will be displayed. For example:
 
 ```
 Outputs:
