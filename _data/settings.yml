@@ -5,7 +5,7 @@ title: Node.js SaaS Boilerplate with React - Volca
 logo: images/logo-light.svg
 author: Volca
 description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infra with AWS CDK. Build a SaaS in weeks.
-banner: 
+banner:
   text: Get 50% off with the code EARLYBIRD 💰
   button:
     text: Download
@@ -29,6 +29,38 @@ menu__settings:
 hero:
   hero__title: Node.js SaaS Boilerplate with React
   hero__description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
+
+#-------------------------------
+# Docs Settings
+docs:
+  - title: Overview
+    url: /docs/
+  - title: Cofigure GitHub
+    url: /docs/configure-github/
+  - title: Configure AWS
+    url: /docs/configure-aws/
+  - title: Deploy Infrastructure
+    url: /docs/deploy-infrastructure/
+  - title: Tech Stack
+    url: /docs/tech-stack/
+  #- title: Building a feature
+  #  url: /docs/building-a-feature/
+  #  subpages:
+  #    - title: Migrations
+  #      url: /docs/migrations
+  #    - title: Services
+  #      url: /docs/services
+  #    - title: Actions
+  #      url: /docs/actions
+  #    - title: Pages
+  #      url: /docs/pages
+  #    - title: Hooks
+  #      url: /docs/hooks
+
+  - title: Deploy Infrastructure
+    url: /docs/deploy-infrastructure/
+  - title: File Structure
+    url: /docs/file-structure/
 
 #-------------------------------
 # Portfolio Settings
@@ -84,7 +116,7 @@ portfolio:
       title: Serverless
       description: Focus on creating a great product instead of managing servers
       link: /serverless
-      
+
     - icon: ion-ios-moon
       title: Dark Mode
       description: "Yes, it's a feature 😎"
