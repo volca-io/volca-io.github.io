@@ -3,7 +3,6 @@ layout: post
 title: From Software Employee to Founder
 description:
 date: 2022-10-30 15:01:35 +0300
-image: /images/hustle.png
 tags: [developer, career, founder]
 published: true
 ---
