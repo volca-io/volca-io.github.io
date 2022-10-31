@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tech Stack
-permalink: /docs/tech-stack
+permalink: /docs/tech-stack/
 ---
 
 The tech stack that Volca is built on was chosen with the following in mind:

@@ -1,9 +1,20 @@
 ---
 layout: page
-title: Serverless SaaS Template
+title: Serverless SaaS Boilerplate and Template
 description: Serverless technologies are essential for a new SaaS product to be able to launch with minimal cost and being able to scale up when attracting more users.
 permalink: /serverless/
+tldrs:
+  [
+    "Using serverless technologies to build your SaaS will...",
+    "Avoid upfront infrastructure costs",
+    "Help you scale your service automatically",
+    "Save you the time required to manage servers",
+  ]
 ---
+
+{% include testimonial.html title='Karl, SaaS Founder' image='https://volca.io/images/karl.jpg' content='I deployed my first SaaS product with a simple VM running in the cloud. I had to install the server software required to run my product and scale it up manually to keep my backend from going down. Working with serverless technologies for the first time was like discovering fire. In this article, I share the benefits (and drawbacks) of serverless for SaaS products.' %}
+
+{% include tldr.html %}
 
 Volca is a serverless SaaS template that gives you everything you need to build serverless apps at light speed.
 
@@ -13,7 +24,7 @@ A serverless tech stack brings many benefits, especially for when you are buildi
 
 ### No upfront cost
 
-When you are starting a new project, you do not want to pour hundreds of dollars into your infrastructure before anyone is using your product. Since the serverless model charges for actual usage instead of a fixed price for running your infrastructure, you only pay when your SaaS product is being used. In many cases, the top cloud providers have generous free tiers that you can use to further minimize your costs.
+When you are starting a new project, you do not want to pour hundreds of dollars into your infrastructure before anyone is using your product. Since the serverless model charges for actual usage instead of a fixed price for running your infrastructure, you only pay when your SaaS product is being used. In many cases, the top cloud providers have generous free tiers that you can use to further minimize your costs. Read more about [how to run your SaaS for free](/deploy-your-saas-for-free/) on this page.
 
 ### No manual scaling
 
