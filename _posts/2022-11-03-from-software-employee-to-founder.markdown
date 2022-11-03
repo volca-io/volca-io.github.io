@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Software Employee to Founder
+title: Software Employee to Founder Framework
 description:
 date: 2022-11-03 15:01:35 +0300
 tags: [developer, career, founder]
