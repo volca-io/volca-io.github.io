@@ -1,3 +1,10 @@
+---
+layout: page
+seo_title: Terms and Conditions
+title: Terms and Conditions
+permalink: /terms/
+---
+
 Last updated: November 06, 2022
 
 Please read these terms and conditions carefully before using Our Service.
