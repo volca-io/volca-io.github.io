@@ -65,6 +65,21 @@ docs:
 portfolio:
   portfolio__title: Features
   portfolio__gallery:
+    - icon: ion-ios-key
+      title: Authentication
+      description: Secure and reliable authentication out of the box
+      link: /authentication/
+
+    - icon: ion-ios-card
+      title: Subscriptions
+      description: Enable your users to subscribe to your service
+      link: "#"
+
+    - icon: ion-ios-code-working
+      title: TypeScript
+      description: The backend, frontend and infrastructure is written in TypeScript, so you only have to know one language!
+      link: "#"
+      
     - icon: ion-ios-build
       title: CI/CD
       description: Deploy with confidence from the start with a solid CI/CD setup
@@ -75,20 +90,11 @@ portfolio:
       description: Built with best practice security
       link: "#"
 
-    - icon: ion-ios-card
-      title: Subscriptions
-      description: Enable your users to subscribe to your service
-      link: "#"
-
     - icon: ion-ios-briefcase
       title: Multi tenancy
       description: Enable your users to create projects and invite their team
       link: /multitenant/
 
-    - icon: ion-ios-key
-      title: Authentication
-      description: Secure and reliable authentication out of the box
-      link: /authentication/
 
     #- icon: ion-ios-pulse
     #  title: Monitoring
