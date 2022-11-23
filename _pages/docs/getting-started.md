@@ -31,6 +31,21 @@ To install all depedencies that Volca uses, run the following command:
 yarn
 ```
 
+### Create a .env file
+
+To control environment variables when running locally, we use a `.env` file.
+
+Create a placeholder file `services/api/env/.env.local` and fill it with the placeholder values below:
+
+```
+STAGE=local
+STRIPE_KEY=<STRIPE_KEY>
+STRIPE_PRICE_ID=<STRIPE_PRICE_ID>
+SIGNING_KEY=local-signing-key
+```
+
+The Stripe keys are not required to get up and running at this stage. As you continue configuring your Volca app, you can update this file with new values.
+
 ### Run Locally
 
 Run
