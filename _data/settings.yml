@@ -5,7 +5,7 @@ title: Node.js SaaS Boilerplate with React - Volca
 logo: images/logo-light.svg
 author: Volca
 description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infra with AWS CDK. Build a SaaS in weeks.
-banner: 
+banner:
   text: Black Friday sale! Get 50% off with the code BLACK 🖤
   button:
     text: Download
@@ -79,7 +79,7 @@ portfolio:
       title: TypeScript
       description: The backend, frontend and infrastructure is written in TypeScript, so you only have to know one language!
       link: "#"
-      
+
     - icon: ion-ios-build
       title: CI/CD
       description: Deploy with confidence from the start with a solid CI/CD setup
@@ -94,7 +94,6 @@ portfolio:
       title: Multi tenancy
       description: Enable your users to create projects and invite their team
       link: /multitenant/
-
 
     #- icon: ion-ios-pulse
     #  title: Monitoring
@@ -126,6 +125,11 @@ portfolio:
       description: Yes, it's a feature 😎
       link: "#"
 
+    - icon: ion-logo-slack
+      title: Slack
+      description: Private channel where the Volca team will help you build your SaaS
+      link: "#"
+
 #-------------------------------
 # FAQ Settings
 faq:
@@ -136,7 +140,10 @@ faq:
     description: In short, Volca is built for developers who want to create software products fast. The template can be used by beginner and experienced developers alike and is built using the industry best practices with developer experience as a top priority.
 
   - title: How do I get started creating a product with Volca?
-    description: We have worked hard on documenting Volca and creating tutorials that are easy to follow. If you find yourself stuck, we will support you over email.
+    description: We have worked hard on documenting Volca and creating tutorials that are easy to follow. If you find yourself stuck, we will support you in our private Slack channel.
+
+  - title: Is support included?
+    description: Yes, when you purchase Volca you will be invited to a private Slack channel where our team will help you build your SaaS.
 
   - title: What if I regret my purchase?
     description: Don't worry. If you decide Volca is not the right choice for you, you can request a refund within 14 days and we will give you all your money back.

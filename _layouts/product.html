@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-5" style="white-space: nowrap; text-align: center">
+      <a href="{{ page.screenshot }}" target="_blank">
+        <img
+          style="border-radius: 8px; margin-top: 6em"
+          src="{{ page.screenshot }}"
+        />
+      </a>
+    </div>
+    <div class="col col-7">
+      <div class="page__info">
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+        {% include cta-buttons.html width='auto' %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+  <div class="row">
+    <div class="col col-12">{{ content }}</div>
+  </div>
+</div>
+<!-- end page -->
+
+{% include section-subscribe.html %}
