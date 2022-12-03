@@ -160,6 +160,9 @@ faq:
   - title: Why did you build Volca?
     description: After building software products for the last 10 years, we noticed that there is a huge startup time when building something from scratch. So we took all the components that we kept rebuilding for each project and put them into a single template that anyone can use to kick start their development.
 
+  - title: What is a SaaS Boilerplate?
+    description: A SaaS (software as a service) boilerplate is a pre-built framework that provides a basic structure for developing a software as a service (SaaS) application. It typically includes common components and functionalities that are needed for building a SaaS application, such as user management, authentication, payment processing, and deployment tools. This allows developers to quickly and easily create a SaaS application without having to start from scratch. By using a SaaS boilerplate, developers can save time and resources, and focus on building the unique features and functionality of their SaaS application.
+
 #-------------------------------
 # Subscribe Settings
 mailchimp:

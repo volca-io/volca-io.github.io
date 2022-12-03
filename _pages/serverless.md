@@ -16,7 +16,7 @@ tldrs:
 
 {% include tldr.html %}
 
-Volca is a serverless SaaS template that gives you everything you need to build serverless apps at light speed.
+Volca is a serverless SaaS boilerplate that gives you everything you need to build serverless apps at light speed.
 
 ## Benefits of using a serverless tech stack
 
@@ -56,7 +56,7 @@ This drawback can be serious if you have a very large codebase. However, our exp
 
 ## How you can use Volca to build serverless applications
 
-Volca is a starter template that you can use to build serverless applications multiple times faster than if you would start from scratch. The development team behind Volca has over 15 years of combined experience building applications using a serverless stack backed by Amazon Web Services. We enable a high development speed by providing you with:
+Volca is a starter boilerplate that you can use to build serverless applications multiple times faster than if you would start from scratch. The development team behind Volca has over 15 years of combined experience building applications using a serverless stack backed by Amazon Web Services. We enable a high development speed by providing you with:
 
 - Feature: Secure authentication
 - Feature: Subscription management

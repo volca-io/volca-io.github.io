@@ -6,7 +6,7 @@ screenshot: /images/dashboard.png
 permalink: /admin-dashboard-template/
 ---
 
-Volca is an Admin Dashboard UI Template with pages and components for authentication, payments, control panel and project management. Shorten the time that it takes to develop a beautiful Admin Dashboard using React and Chakra UI. Volca was designed by developers who love beautiful and clean web apps and who have worked for some of the top technology startups in Europe.
+Volca is an Admin Dashboard UI Template with pages and components for authentication, payments, control panel and project management. Shorten the time that it takes to develop a beautiful Admin Dashboard using React and Chakra UI. Volca was designed by developers who love beautiful and clean web apps and who have worked for some of the top technology startups in Europe. The Volca Admin Dashboard comes with a complete backend API and infrastructure as code. This means you do not have to worry about setting up an API for your admin dashboard. Instead, you can focus on what matters in your business.
 
 ## Tech Stack
 
@@ -19,10 +19,6 @@ Volca is an Admin Dashboard UI Template with pages and components for authentica
 
 {% include section-portfolio.html %}
 
-## Batteries Included
-
-The Volca Admin Dashboard comes with a complete backend API and infrastructure as code. This means you do not have to worry about setting up an API for your admin dashboard. Instead, you can focus on what matters in your business.
-
 ## FAQ
 
 {% include faq-single.html title='What is an admin dashboard UI template?' description='An admin dashboard UI template is a premade code template that you can use to kick start your projects.' %}
@@ -34,6 +30,8 @@ The Volca Admin Dashboard comes with a complete backend API and infrastructure a
 {% include faq-single.html title='What if I regret my purchase?' description='As long as you haven\'t created anything with Volca yet, you are always free to request a refund within 14 days of your purchase.' %}
 
 {% include faq-single.html title='Do you provide support?' description='Yes, you will be invited to a private Slack channel where the Volca team will help you with any challenges you face with the template.' %}
+
+{% include faq-single.html title='What is an admin dashboard template?' description='An admin dashboard is a user interface (UI) that is designed for use by administrators or other privileged users to manage and monitor the performance of a system or application. An admin dashboard typically includes a range of tools and features that allow administrators to view and analyze key metrics, manage users and permissions, configure settings, and perform other administrative tasks. An admin dashboard may be accessed through a web-based interface, a desktop application, or a mobile app, depending on the specific system or application. It is typically designed to be user-friendly and intuitive, to make it easy for administrators to quickly access and use the tools and features they need.' %}
 
 ## Benefits of Using an Admin Dashboard UI Template
 
