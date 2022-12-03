@@ -23,6 +23,8 @@ menu__settings:
           url: /admin-dashboard-template/
         - title: ☁️ Serverless SaaS Template
           url: /serverless/
+        - title: 🔶 NodeJS SaaS Boilerplate
+          url: /nodejs-saas-boilerplate/
     - title: Launch
       url: /launch/
     - title: Docs
