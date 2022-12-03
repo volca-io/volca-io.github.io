@@ -217,6 +217,33 @@ table td {
   }
 }
 
+.nav__item .submenu {
+  visibility: hidden;
+}
+
+.nav__item:hover .submenu {
+  visibility: visible;
+}
+
+.submenu {
+  position: absolute;
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 1.1em 1.5em;
+  background: var(--background-alt-color);
+  border-radius: 6px;
+  font-size: .8em;
+}
+
+.submenu li {
+  margin: 0;
+  padding: .4em 0;
+}
+
+.submenu li a:hover {
+  text-decoration: underline;
+}
+
 .lazy {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;

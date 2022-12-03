@@ -23,7 +23,14 @@
             <ul class="nav__list list-reset">
               {% for item in site.data.settings.menu__settings.menu__items %}
                 <li class="nav__item">
-                  <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} nav__link--current{% endif %}">{{ item.title }}</a>
+                  <a href="{% if item.url %} {{ item.url | relative_url }} %} {% else %}#{% endif %}" class="nav__link{% if page.url == item.url %} nav__link--current{% endif %}">{{ item.title }}</a>
+                  {% if item.items %}
+                    <ul class="submenu">
+                    {% for subitem in item.items %}
+                      <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
                 </li>
               {% endfor %}
               <!-- <li class="nav__item">

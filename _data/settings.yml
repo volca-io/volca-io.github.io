@@ -15,14 +15,21 @@ banner:
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: "Home"
-      url: "/"
+    - title: Home
+      url: /
+    - title: Features
+      items:
+        - title: 🛠️ Admin Dashboard Template
+          url: /admin-dashboard-template/
+        - title: ☁️ Serverless SaaS Template
+          url: /serverless/
     - title: Launch
-      url: "/launch/"
+      url: /launch/
     - title: Docs
-      url: "/docs/"
-    - title: "Blog"
-      url: "/blog/"
+      url: /docs/
+    - title: Blog
+      url: /blog/
+    
 
 #-------------------------------
 # Hero Settings
