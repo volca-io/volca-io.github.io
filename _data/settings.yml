@@ -56,7 +56,7 @@ docs:
     url: /docs/tech-stack/
   - title: File Structure
     url: /docs/file-structure/
-  - title: Build todo list
+  - title: Build a todo list
     url: /docs/todo/
   #- title: Building a feature
   #  url: /docs/building-a-feature/
