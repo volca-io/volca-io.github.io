@@ -45,7 +45,4 @@ There are several benefits to using node.js, including:
 
 4. TypeScript has a strong type system, which provides a number of tools and features that can help you write better code, such as type inference, interfaces, and classes. These tools can help you avoid common errors, and make your code more readable and maintainable.
 
-5. TypeScript has excellent support for modern JavaScript features, such as modules, arrow functions, and destructuring, as well as upcoming features, such as async/await and optional chaining. This allows you to write code that is more concise and easy to understand, and that is forward-compatible with future versions of JavaScrip
-
-
-
+5. TypeScript has excellent support for modern JavaScript features, such as modules, arrow functions, and destructuring, as well as upcoming features, such as async/await and optional chaining. This allows you to write code that is more concise and easy to understand, and that is forward-compatible with future versions of JavaScript

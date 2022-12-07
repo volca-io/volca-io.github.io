@@ -25,13 +25,14 @@ menu__settings:
           url: /serverless/
         - title: 🔶 NodeJS SaaS Boilerplate
           url: /nodejs-saas-boilerplate/
+        #- title: ⚛️ React SaaS Boilerplate
+        #  url: /react-saas-boilerplate/
     - title: Launch
       url: /launch/
     - title: Docs
       url: /docs/
     - title: Blog
       url: /blog/
-    
 
 #-------------------------------
 # Hero Settings
@@ -55,6 +56,8 @@ docs:
     url: /docs/tech-stack/
   - title: File Structure
     url: /docs/file-structure/
+  - title: Build todo list
+    url: /docs/todo/
   #- title: Building a feature
   #  url: /docs/building-a-feature/
   #  subpages:
