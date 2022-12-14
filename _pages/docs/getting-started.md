@@ -15,7 +15,7 @@ Once you have purchased Volca, you will receive a link to a zip archive containi
 - [Install Node](https://nodejs.org/en/download/)
   - Node is the runtime for Volca backend servies
 - [Install Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
-  - Yarn is used to manage dependencies and the [monorepo file structure](/docs/file-structure/) of Volca
+  - Yarn is used to manage dependencies and the [monorepo project structure](/docs/project-structure/) of Volca
 - [Install asdf](https://asdf-vm.com/guide/getting-started.html)
   - asdf is a utility to manage versions of the tools used to run Volca
 - [Install Docker](https://docs.docker.com/get-docker/)

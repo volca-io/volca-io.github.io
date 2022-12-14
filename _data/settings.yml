@@ -54,8 +54,8 @@ docs:
         url: /docs/deploy-infrastructure/
   - title: Tech Stack
     url: /docs/tech-stack/
-  - title: File Structure
-    url: /docs/file-structure/
+  - title: Project Structure
+    url: /docs/project-structure/
   - title: Build a todo list
     url: /docs/todo/
   #- title: Building a feature
