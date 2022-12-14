@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Configure Strpie
+title: Configure Stripe
 permalink: /docs/configure-stripe/
 ---
 
