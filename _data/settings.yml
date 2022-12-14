@@ -52,6 +52,8 @@ docs:
         url: /docs/configure-aws/
       - title: 3. Deploy Infrastructure
         url: /docs/deploy-infrastructure/
+      - title: 4. Configure Stripe
+        url: /docs/configure-stripe/
   - title: Tech Stack
     url: /docs/tech-stack/
   - title: Project Structure
