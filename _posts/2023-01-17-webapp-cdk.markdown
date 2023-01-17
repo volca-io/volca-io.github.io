@@ -20,6 +20,8 @@ What we want to achieve with this tutorial is to host and serve a HTML based web
 
 ![Web Application Hosting CDK](/images/webapp-cdk.svg "Web Appliation Hosting CDK")
 
+This article explains each resource that needs to be created and how they fit together. The full source code is [available on GitHub](https://github.com/volca-io/webapp-cdk).
+
 ## Defining the stack
 
 Let's start with defining the stack that all of our resources will reside:
@@ -42,8 +44,6 @@ export class WebappStack extends Stack {
 ```
 
 This will create an empty stack. Next, let's define the resources we need to host a web application.
-
-The full project is available on GitHub.
 
 ## Bucket and origin access identity
 
