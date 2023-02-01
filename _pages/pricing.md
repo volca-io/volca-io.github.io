@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pricing
-description: Volca is an Open Startup
+description: Pricing
 permalink: /pricing/
 ---
 
