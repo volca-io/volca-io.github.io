@@ -209,10 +209,11 @@ table td {
   background: var(--background-alt-color);
 
   &--primary {
-    color: var(--white);
+    color: var(--dark-gray);
     background-color: var(--button-background-color);
 
     &:hover {
+      color: var(--dark-gray);
       background: var(--button-background-hover);
     }
   }
