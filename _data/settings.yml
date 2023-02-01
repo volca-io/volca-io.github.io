@@ -157,6 +157,9 @@ faq:
   - title: What if I regret my purchase?
     description: Don't worry. If you decide Volca is not the right choice for you, you can request a refund within 14 days and we will give you all your money back.
 
+  - title: What is the difference between the open source and paid versions?
+    description: The open source code does not any of the features such as authentication, payments, projects or support. If you use the open source version you have to build everything yourself.
+
   - title: How is Volca hosted?
     description: Volca is hosted on AWS using a cloud native approach. We believe in utilizing the full potential of one cloud provider and AWS is our provider of choice. You are however free to modify the template to run on any cloud provider that works for you.
 
