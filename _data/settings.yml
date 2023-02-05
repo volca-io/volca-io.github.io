@@ -22,6 +22,8 @@ menu__settings:
           url: /nodejs-saas-boilerplate/
         #- title: ⚛️ React SaaS Boilerplate
         #  url: /react-saas-boilerplate/
+    - title: Pricing
+      url: /pricing/
     - title: Launch
       url: /launch/
     - title: Docs
