@@ -4,6 +4,7 @@ title: Web application hosting using AWS CDK and TypeScript
 description:
 date: 2023-01-17 15:01:35 +0300
 tags: [cdk, aws, s3, cloudfront]
+image: /images/webhosting.png
 published: true
 ---
 

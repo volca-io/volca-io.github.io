@@ -4,6 +4,7 @@ title: From Software Employee to Founder
 description:
 date: 2022-11-03 15:01:35 +0300
 tags: [developer, career, founder]
+image: /images/founder.png
 published: true
 ---
 

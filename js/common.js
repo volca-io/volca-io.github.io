@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     menuClose();
   });
 
-  toggleTheme.addEventListener("click", () => {
+  toggleTheme?.addEventListener("click", () => {
     darkMode();
   });
 
