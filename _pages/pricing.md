@@ -7,4 +7,6 @@ permalink: /pricing/
 
 {% include pricing.html %}
 
+{% include section-testimonials.html %}
+
 {% include section-faq.html %}
