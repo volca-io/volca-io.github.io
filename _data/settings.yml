@@ -168,6 +168,9 @@ faq:
   - title: How is Volca deployed?
     description: All of the infrastructure required to run Volca is defined using AWS CDK and deploys to an AWS account of your choosing. By default, GitHub Actions are configured to deploy to your environments when pushing code into your GitHub repository.
 
+  - title: How much does it cost to host a project using Volca?
+    description: With the default configuration, the AWS cost is around $12 per month for each environment (production, staging etc.) but it can increase if you have a large number of users.
+
   - title: Who built Volca?
     description: Volca was built by Oskar and Karl, two full stack developers with a combined programming experience of 20 years. They have worked on everything from fast growing apps to huge enterprise systems and all of their learnings have been poured into the development of Volca.
 
