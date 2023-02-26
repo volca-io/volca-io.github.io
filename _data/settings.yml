@@ -141,6 +141,11 @@ portfolio:
       description: Private channel where the Volca team will help you build your SaaS
       link: "#"
 
+    - icon: ion-logo-github
+      title: GitHub
+      description: Access to a private GitHub repository for collaboration and access to updates
+      link: "#"
+
 #-------------------------------
 # FAQ Settings
 faq:
