@@ -116,11 +116,6 @@ portfolio:
       description: Find and remedy production issues quickly
       link: /logging/
 
-    - icon: ion-ios-cash
-      title: Free Tier
-      description: Free at rest infrastructure - no usage, no cost
-      link: /deploy-your-saas-for-free/
-
     - icon: ion-ios-code
       title: Open Source
       description: Our core functionality is available open source
