@@ -16,7 +16,7 @@ Volca is a React SaaS boilerplate with features such as payments, authentication
 
 {% include faq-single.html title='What if I regret my purchase?' description='If you are not happy with the Volca React boilerplate and no longer plan on using it, we will refund you. We are all about happy customers and appreciate your feedback :-)' %}
 
-{% include faq-single.html title='How does it work?' description='Once you have purchased Volca, you will receive a download link to the code. Once you have downloaded code, simply fire up your favorite editor and start building your product. Our documentation will take you through the initial configuration process.' %}
+{% include faq-single.html title='How does it work?' description='Once you have purchased Volca, you will receive an invitation to a private GitHub repo that you can clone to get started. You will also get a download link that you can use if you do not want to enter your GitHub username. Our documentation will then take you through the initial configuration process.' %}
 
 ## Benefits of Using React to Build a SaaS
 

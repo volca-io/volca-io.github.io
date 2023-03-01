@@ -18,7 +18,7 @@ Volca is a NodeJS SaaS Template written in TypeScript. It comes with pages and c
 
 {% include faq-single.html title='How do I host Volca?' description='The Volca SaaS boilerplate comes with AWS infrastructure as code written using AWS CDK. The infrastructure deploys automatically through GitHub Actions.' %}
 
-{% include faq-single.html title='How does it work?' description='Once you have purchased Volca, you will receive a download link to the code. Once you have downloaded code, simply fire up your favorite editor and start building your product. Our documentation will take you through the initial configuration process.' %}
+{% include faq-single.html title='How does it work?' description='Once you have purchased Volca, you will receive an invitation to a private GitHub repo that you can clone to get started. You will also get a download link that you can use if you do not want to enter your GitHub username. Our documentation will then take you through the initial configuration process.' %}
 
 
 ## Benefits of Using NodeJS to Build a SaaS
