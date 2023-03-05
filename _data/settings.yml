@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # Site Settings
-title: Node.js SaaS Boilerplate with React - Volca
+title: SaaS Boilerplate and Starter Kit with Node.js and React - Volca
 logo: images/logo-light.svg
 author: Volca
 description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infra with AWS CDK. Build a SaaS in weeks.
@@ -34,8 +34,8 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Node.js SaaS Boilerplate with React
-  hero__description: Create your SaaS using proven Node and React patterns that accelerate your development and deployment speed.
+  hero__title: SaaS Boilerplate and Starter Kit with Node.js and React
+  hero__description: Create your SaaS using a starter kit built on proven Node and React patterns that accelerate your development and deployment speed.
 
 #-------------------------------
 # Docs Settings
@@ -132,8 +132,8 @@ portfolio:
       link: "#"
 
     - icon: ion-logo-slack
-      title: Slack
-      description: Private channel where the Volca team will help you build your SaaS
+      title: Community
+      description: Private community where the Volca team will help you build your SaaS
       link: "#"
 
     - icon: ion-logo-github
@@ -177,8 +177,8 @@ faq:
   - title: Why did you build Volca?
     description: After building software products for the last 10 years, we noticed that there is a huge startup time when building something from scratch. So we took all the components that we kept rebuilding for each project and put them into a single template that anyone can use to kick start their development.
 
-  - title: What is a SaaS Boilerplate?
-    description: A SaaS (software as a service) boilerplate is a pre-built framework that provides a basic structure for developing a software as a service (SaaS) application. It typically includes common components and functionalities that are needed for building a SaaS application, such as user management, authentication, payment processing, and deployment tools. This allows developers to quickly and easily create a SaaS application without having to start from scratch. By using a SaaS boilerplate, developers can save time and resources, and focus on building the unique features and functionality of their SaaS application.
+  - title: What is a SaaS Boilerplate or Starter Kit?
+    description: A SaaS (software as a service) boilerplate or starter kit is a pre-built framework that provides a basic structure for developing a software as a service (SaaS) application. It typically includes common components and functionalities that are needed for building a SaaS application, such as user management, authentication, payment processing, and deployment tools. This allows developers to quickly and easily create a SaaS application without having to start from scratch. By using a SaaS boilerplate, developers can save time and resources, and focus on building the unique features and functionality of their SaaS application.
 
 #-------------------------------
 # Subscribe Settings
