@@ -3,14 +3,15 @@
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
-
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
-          {% if site.data.settings.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
-          {% else %}
-            {{ site.data.settings.title }}
-          {% endif %}
+            {% if site.data.settings.logo %}
+            <img
+              class="logo__image"
+              src="{{ site.baseurl }}/{{ site.data.settings.logo }}"
+              alt="{{ site.data.settings.title }}"
+            />
+            {% else %} {{ site.data.settings.title }} {% endif %}
           </a>
         </div>
 
@@ -22,16 +23,23 @@
             <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
               {% for item in site.data.settings.menu__settings.menu__items %}
-                <li class="nav__item">
-                  <a href="{% if item.url %}{{ item.url | relative_url }}{% else %}#{% endif %}" class="nav__link{% if page.url == item.url %} nav__link--current{% endif %}">{{ item.title }}</a>
-                  {% if item.items %}
-                    <ul class="submenu">
-                    {% for subitem in item.items %}
-                      <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
-                    {% endfor %}
-                    </ul>
-                  {% endif %}
-                </li>
+              <li class="nav__item">
+                <a
+                  href="{% if item.url %}{{ item.url | relative_url }}{% else %}#{% endif %}"
+                  class="nav__link{% if page.url == item.url %} nav__link--current{% endif %}"
+                  >{{ item.title }}</a
+                >
+                {% if item.items %}
+                <ul class="submenu">
+                  {% for subitem in item.items %}
+                  <div>
+                    <i class="ion {{subitem.icon}}"></i>
+                  </div>
+                  <a href="{{ subitem.url }}">{{ subitem.title }}</a>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </li>
               {% endfor %}
               <!-- <li class="nav__item">
                 <div class="toggle-theme">
@@ -46,7 +54,6 @@
         <div class="nav-button">
           <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
         </div>
-
       </div>
     </div>
   </div>

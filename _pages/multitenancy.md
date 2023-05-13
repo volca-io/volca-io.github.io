@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: product
 seo_title: Multi Tenant SaaS Boilerplate (Node.js / TypeScript)
 title: Multi Tenant SaaS Boilerplate (Node.js / TypeScript)
 description: Multi tenancy is a key aspect for scaling your SaaS product by allowing your solution to serve multiple user groups from the same application.
+screenshot: /images/dashboard.png
 permalink: /multitenant/
 ---
 
-Volca is a SaaS boilerplate that has support for a project based multi-tenancy where users can start a subscription and collaborate with their teammates with minimal effort. Check out the demo [here](https://app.demo.volca.io)
+Volca is a SaaS boilerplate that has support for a project based multi-tenancy where users can start a subscription and collaborate with their teammates with minimal effort.
 
-In this article we will go through what multi-tenancy in SaaS applications is and how we can set it up with node.js and Typescript!
+{% include section-portfolio.html %}
 
 ## Multitenancy
 

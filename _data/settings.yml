@@ -4,7 +4,7 @@
 title: SaaS Boilerplate and Starter Kit with Node.js and React - Volca
 logo: images/logo-light.svg
 author: Volca
-description: Serverless SaaS boilerplate with Node.js, TypeScript & React. Includes authentication, subscriptions, CI/CD and infra with AWS CDK. Build a SaaS in weeks.
+description: SaaS boilerplate and starter kit with Node.js, TypeScript & React. Includes authentication, subscriptions and CI/CD. Build a SaaS in days instead of months.
 
 #-------------------------------
 # Menu Settings
@@ -12,20 +12,46 @@ menu__settings:
   menu__items:
     - title: Home
       url: /
-    - title: Features
-      items:
-        - title: 🛠️ Admin Dashboard Template
-          url: /admin-dashboard-template/
-        - title: ☁️ Serverless SaaS Template
-          url: /serverless/
-        - title: 🔶 NodeJS SaaS Boilerplate
-          url: /nodejs-saas-boilerplate/
-        #- title: ⚛️ React SaaS Boilerplate
-        #  url: /react-saas-boilerplate/
     - title: Pricing
       url: /pricing/
-    - title: Launch
-      url: /launch/
+    - title: Features
+      items:
+        - icon: ion-ios-key
+          title: Authentication
+          url: /authentication/
+
+        - icon: ion-ios-build
+          title: CI/CD
+          url: /cicd/
+
+        - icon: ion-ios-briefcase
+          title: Multi Tenancy
+          url: /multitenant/
+
+        - icon: ion-ios-search
+          title: Logging
+          url: /logging/
+
+        - icon: ion-ios-code
+          title: Open Source
+          url: /open-source/
+
+        - icon: ion-ios-cloud
+          title: Serverless
+          url: /serverless/
+    - title: Use Cases
+      items:
+        - title: Admin Dashboard Template
+          url: /admin-dashboard-template/
+          icon: ion-ios-speedometer
+        - title: Serverless SaaS Template
+          url: /serverless/
+          icon: ion-ios-cloud
+        - title: NodeJS SaaS Boilerplate
+          url: /nodejs-saas-boilerplate/
+          icon: ion-logo-nodejs
+        #- title: ⚛️ React SaaS Boilerplate
+        #  url: /react-saas-boilerplate/
     - title: Docs
       url: /docs/
     - title: Blog
@@ -102,7 +128,7 @@ portfolio:
       link: "#"
 
     - icon: ion-ios-briefcase
-      title: Multi tenancy
+      title: Multi Tenancy
       description: Enable your users to create projects and invite their team
       link: /multitenant/
 

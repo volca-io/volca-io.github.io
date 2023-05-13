@@ -219,25 +219,65 @@ table td {
   }
 }
 
-.nav__item .submenu {
+.hero__inner .hero__description {
+  @media only screen and (max-width: 1024px) {
+    margin-bottom: 2em !important;
+  }
+}
+
+.submenu {
+  color: white;
+  transition: visibility 0s, opacity 0.5s linear;
+  position: absolute;
+  list-style-type: none;
+  opacity: 0;
+  margin: 0.5em 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  background: var(--background-alt-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 12px;
+  z-index: 2000;
   visibility: hidden;
+  @media only screen and (max-width: 1024px) {
+    width: 75%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 .nav__item:hover .submenu {
   visibility: visible;
+  opacity: 1;
 }
 
-.submenu {
+.submenu::before {
+  content: "";
   position: absolute;
-  list-style-type: none;
-  margin: 1em 0;
-  padding: 1.1em 1.5em;
-  background: var(--background-alt-color);
-  border-radius: 6px;
-  font-size: 0.8em;
-  @media only screen and (max-width: $mobile) {
+  width: 25%;
+  height: 120%;
+  left: 15%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  @media only screen and (max-width: 1024px) {
     display: none;
+    left: 40%;
   }
+}
+
+.submenu i {
+  font-size: 1em;
 }
 
 .submenu li {
@@ -245,7 +285,7 @@ table td {
   padding: 0.4em 0;
 }
 
-.submenu li a:hover {
+.submenu a:hover {
   text-decoration: underline;
 }
 
@@ -262,6 +302,12 @@ table td {
   background-color: var(--background-alt-color) !important;
 }
 
+.logos {
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+}
+
 .testimonial-image {
   height: 150px;
   margin-bottom: 16px;
@@ -275,4 +321,15 @@ table td {
 .testimonial-image::after {
   content: "<span></span>";
   width: 16px;
+}
+
+.boilerplate-cta {
+  border-radius: 1em;
+  margin: 1.5em 0;
+  padding: 1.5em;
+  background: linear-gradient(135deg,#0e73cc 1.93%,#624bbb 14.86%,#ef4444 48.09%,#f97316 77.82%,#fde047 97.3%);
+}
+
+.boilerplate-cta p {
+  margin:0;
 }

@@ -1,256 +1,80 @@
 ---
 layout: page
-seo_title: Node.js / TypeScript JWT Authentication
-title: Node.js / TypeScript JWT Authentication
-description: Discover how to quickly implement secure, JWT based authentication for your SaaS product using Node.js / TypeScript and Koa.
+seo_title: Node.js / TypeScript Authentication for SaaS Products
+title: Node.js / TypeScript Authentication for SaaS Products
+description: Discover how to quickly implement secure authentication for your SaaS product using Node.js / TypeScript and Koa.
 permalink: /authentication/
 ---
 
-Volca is a SaaS template that comes bundled with authentication out of the box. Leverage Volca to avoid building your own authentication and get your product out to market faster. Check out the demo [here](https://app.demo.volca.io)
+Authentication is a critical aspect of building any software as a service (SaaS) product. It is the process of verifying the identity of users who access your SaaS platform, and ensuring that only authorized users can access the features and data within it. In today's digital age, where data breaches and security threats are becoming increasingly common, ensuring robust and secure authentication mechanisms is more important than ever. With our SaaS boilerplate Volca, you get a secure, tested and well design authentication mechanism. Read more about how we implemented authentication in Volca below as well as various aspects of authentication for SaaS products, including best practices, common pitfalls, and the most popular authentication methods used by SaaS providers.
+
+{% include feature-cta.html %}
+
+## Technologies
+
+{% include media.html title="AWS Cognito" description="AWS Cognito is a fully-managed service provided by Amazon Web Services (AWS) that provides user sign-up, sign-in, and access control functionalities for web and mobile applications. It is a scalable and secure user directory that can handle user authentication and authorization for millions of users. With AWS Cognito, developers can easily add user authentication and authorization to their applications without the need to build their own user management system from scratch. Additionally, AWS Cognito can be integrated with other AWS services such as Amazon S3, Amazon DynamoDB, and AWS Lambda to build a complete serverless application stack." image="/images/cognito.png" %}
+
+{% include media.html title="AWS CDK" description="AWS CDK (Cloud Development Kit) is a software development framework used to define cloud infrastructure as code. It allows developers to define infrastructure in familiar programming languages and then generates the corresponding AWS CloudFormation templates. CDK is used to set up authentication in Volca by defining resources such as Cognito user pools and identity pools, making it easier to manage and version control the infrastructure." image="/images/cdk.png" %}
+
+
+
+
+## What is important when it comes to authentication for SaaS products?
+
+Authentication is a critical aspect of building a SaaS product, as it enables users to securely access their data and manage their accounts. Here are some important considerations when it comes to authentication for SaaS products:
+
+Security: Security should be the top priority when it comes to authentication. SaaS products must use secure authentication methods, such as multi-factor authentication, to ensure that only authorized users can access the system.
+
+User Experience: While security is important, it should not come at the expense of user experience. SaaS products should aim to provide a seamless, user-friendly authentication experience to reduce user frustration and promote adoption.
+
+Scalability: As a SaaS product grows, it must be able to handle an increasing number of user authentication requests. Therefore, it's important to use authentication methods that can scale easily and efficiently, such as token-based authentication.
+
+Compliance: Depending on the industry, SaaS products may be subject to various regulatory requirements, such as HIPAA or GDPR. It's important to ensure that authentication methods comply with any relevant regulations.
+
+Integration: Authentication must be integrated with other parts of the SaaS product, such as user management and access control. It's important to ensure that the authentication system can work seamlessly with other parts of the system to provide a unified user experience.
+
+## What authentication providers should I have for my SaaS?
+
+The authentication providers you should have for your SaaS product will depend on your specific needs and the preferences of your users. However, here are some commonly used authentication providers for SaaS products:
+
+Email and password authentication: This is the most basic form of authentication, where users create an account with their email address and a password.
+
+Social login: Many users prefer to use their existing social media accounts to log in to other services. Common social login providers include Facebook, Google, Twitter, LinkedIn, and GitHub.
+
+Two-factor authentication: Adding an extra layer of security through two-factor authentication (2FA) can help prevent unauthorized access to user accounts. Common methods of 2FA include SMS verification codes, app-based authentication (such as Google Authenticator), and hardware keys (such as YubiKey).
+
+Single sign-on (SSO): SSO allows users to log in to multiple services using a single set of credentials. Common SSO providers include Okta, Microsoft Azure Active Directory, and Google Cloud Identity.
+
+OAuth 2.0: OAuth 2.0 is an open standard for authorization that allows users to grant access to their data on one service to another service. Common OAuth 2.0 providers include Google, Facebook, and Twitter.
+
+It's important to note that while offering a variety of authentication providers can be convenient for users, it can also increase the attack surface of your application. Therefore, it's important to properly secure all authentication methods and regularly monitor for any suspicious activity.
 
 In this article we will go through what authentication is and how to implement authentication in your node.js service.
 
-## Authentication
+## Best practices for authentication in SaaS products
 
-Authentication is simply the process of establishing an identity for the actor that is calling your service. Something that is often mentioned in relation to authentication is authorization. These concepts are related to each other but there is a clear difference.
+Use HTTPS: All communications between the user's browser and the SaaS product should be encrypted using HTTPS to prevent eavesdropping and man-in-the-middle attacks.
 
-_Authentication is the process of establishing who an actor is, while authorization is the process of establishing if the actor is allowed to perform a specific action_
+Enforce strong password policies: Passwords should be complex and difficult to guess, and users should be required to change them regularly.
 
-When it comes to authentication, this can be done with a wide variety of techniques. The most common one historically being password authentication. Other common authentication techniques are also one time passwords, biometrics and tokens.
+Implement multi-factor authentication: To provide an additional layer of security, consider implementing two-factor authentication or biometric authentication.
 
-In this article, we will go through how to set up password based authentication together with JSON web tokens.
+Limit failed login attempts: To prevent brute-force attacks, limit the number of failed login attempts and lock out users who exceed the limit.
 
-## JSON Web tokens
+Monitor for suspicious activity: Regularly monitor user activity logs for signs of suspicious activity, such as failed login attempts from multiple locations.
 
-So what's a JSON web token? Basically it's a way of securely transmitting information between two parties. The security aspect comes from something called a signature. The signature is based on the body of the token, which contains a set of claims. These claims can be anything that you can put into a JSON object, for example a username.
+## What are some common pitfalls when implementing authentication for a SaaS product?
 
-If someone were to tamper with the token, for example by changing the username in the token, then the signature would no longer be valid and the token can be rejected.
+Implementing authentication for a SaaS product is a crucial aspect of building a secure and user-friendly application. However, there are some common pitfalls that can be encountered during implementation. Here are some of the most common pitfalls:
 
-In the context of API authentication, we can let the user provide some credentials proving that they are who they say they are and then issue a JWT token back to them. The user can then attach that token in subsequent calls to your API. When the token is received we can validate the signature and extract the username from the token.
+Weak password policies: Weak password policies are one of the most common security risks in authentication. Implementing weak password policies such as allowing short or easily guessed passwords, or not enforcing password complexity can lead to potential security breaches.
 
-No one else can generate that token since they don't know the secret used for signing it. Because of this we can trust that the user that has the token is the same one we issued it to.
+Insufficient data validation: Insufficient data validation can lead to a variety of security risks, including SQL injection and cross-site scripting (XSS) attacks. All user input should be validated and sanitized to ensure that it meets the requirements of the system and is not malicious.
 
-## Implementing authentication in practice
+Lack of two-factor authentication (2FA): Two-factor authentication provides an additional layer of security to the authentication process. Not implementing 2FA can leave the system vulnerable to attacks such as brute force attacks, password spraying, and phishing.
 
-Alright, so let's get started! In this section we will describe the different steps involved in setting up JWT authentication. In this example we will be using Typescript together with Koa.
+Insecure session management: Session management is an essential part of authentication, and if not implemented correctly, it can lead to session hijacking and other security risks. Sessions should be properly managed, and the system should ensure that session tokens are not compromised.
 
-## Registering a user
+Not implementing rate limiting: Rate limiting is important to prevent brute force attacks, where an attacker attempts to guess a user's password repeatedly. Without rate limiting, an attacker can easily guess passwords and gain access to user accounts.
 
-To allow a user to authenticate, we first need them to be able to register. Let's set up a simple registration endpoint to allow this. It's up to you how you want to persist the user, it could be in any kind of persistent storage, but remember to keep the information safe.
-
-Here is a code snippet for how to set up a registration endpoint.
-
-```ts
-import Koa, { Context } from "koa";
-import Router from "@koa/router";
-import body from "koa-bodyparser";
-import bcrypt from "bcryptjs";
-
-const app = new Koa();
-const router = new Router();
-
-router.use(body());
-
-const db = {
-  findUserByUsername: (username: string) => {
-    return null;
-  },
-  createUser: (username: string, password: string) => {
-    console.log("User created!");
-
-    return { username, password };
-  },
-};
-
-router.post("/register", async (ctx: Context) => {
-  const { username, password } = ctx.request.body;
-
-  const user = db.findUserByUsername(username);
-  if (!user) {
-    throw new Error("User already exists");
-  }
-
-  const passwordHash = await bcrypt.hash(password, 8);
-
-  db.createUser(username, passwordHash);
-
-  ctx.status = 200;
-  ctx.body = {
-    message: "User successfully created!",
-  };
-});
-
-app.use(router.routes()).use(router.allowedMethods());
-
-app.listen(3000, () => {
-  console.log("Server is listening at port 3000");
-});
-```
-
-## Authenticating the user
-
-Now that we have the user registered with a hashed password, let's set up password authentication
-
-```ts
-import Koa, { Context } from "koa";
-import Router from "@koa/router";
-import body from "koa-bodyparser";
-import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
-
-const app = new Koa();
-const router = new Router();
-
-router.use(body());
-
-const db = {
-  findUserByUsername: (username: string) => {
-    return { username, password: "password-hash" };
-  },
-};
-
-router.post("/authenticate", async (ctx: Context) => {
-  const { username, password } = ctx.request.body;
-
-  const user = db.findUserByUsername(username);
-  if (!user) {
-    ctx.status = 401;
-    ctx.body = {
-      message: "Wrong username or password!",
-    };
-    return;
-  }
-
-  const passwordHash = await bcrypt.hash(password, 8);
-  if (user.password !== passwordHash) {
-    ctx.status = 401;
-    ctx.body = {
-      message: "Wrong username or password!",
-    };
-    return;
-  }
-
-  const token = jwt.sign(
-    {
-      username,
-    },
-    "my-super-secret-string"
-  );
-
-  ctx.status = 200;
-  ctx.body = {
-    access_token: token,
-  };
-});
-
-app.use(router.routes()).use(router.allowedMethods());
-
-app.listen(3000, () => {
-  console.log("Server is listening at port 3000");
-});
-```
-
-In this example we do the following:
-
-- Check that the user exists in our database
-- Hash the provided password and compare it to the password hash we created when the user signed up
-- Create a signed JWT with the username in the payload and return it to the user
-
-If we make a request like this to the endpoint:
-
-```sh
-curl -XPOST -H "Content-type: application/json" -d '{
-    "username":"volca",
-    "password":"password"
-}' 'http://localhost:3000/authenticate'
-```
-
-We would get a response like this
-
-```json
-{
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZvbGNhIiwiaWF0IjoxNjY0ODI3Mjc1fQ.buulOHN4kBelq2l3XbRVJiWLxI_qv5vLS9B4ql8T5z0"
-}
-```
-
-## Validating JWTs
-
-So now when we have the tokens, let's have a look at how we can secure our endpoints. We will be doing this by implementing a middleware on our router.
-
-```ts
-import Koa, { Context, Next } from "koa";
-import Router from "@koa/router";
-import body from "koa-bodyparser";
-import jwt, { JwtPayload } from "jsonwebtoken";
-
-const app = new Koa();
-const router = new Router();
-
-router.use(body());
-
-router.use(async (ctx: Context, next: Next) => {
-  const authHeader = ctx.header.authorization;
-  if (!authHeader) {
-    ctx.status = 401;
-    return;
-  }
-
-  const token = authHeader.replace("Bearer ", "");
-
-  try {
-    const payload = jwt.verify(token, "my-super-secret-string") as JwtPayload;
-    ctx.username = payload.sub;
-
-    next();
-  } catch (error: unknown) {
-    ctx.status = 401;
-  }
-});
-
-router.get("/protected", (ctx: Context) => {
-  ctx.status = 200;
-  ctx.body = {
-    message: `Hello ${ctx.username}!`,
-  };
-});
-
-app.use(router.routes()).use(router.allowedMethods());
-
-app.listen(3000, () => {
-  console.log("Server is listening at port 3000");
-});
-```
-
-So what's happening here?
-
-- We start off by reading the authorization header from the request. If the header is not present, we return a 401 status code to indicate the request was not authorized
-- If the header exists, we clean off the `Bearer` prefix
-- We then validate the token by providing the same secret we used when signing the token
-- If the validation passes, we read the `subject` claim from the token and set it as the username in the context.
-- In the route we are now able to read the username of the authenticated user!
-
-If we trigger the endpoint with a cURL request like this:
-
-```sh
-curl -XPOST -H "Content-type: application/json" -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2b2xjYSIsImlhdCI6MTY2NDgyODExNX0.M7g1ElkMehywQLmDTx8tGWSjAibcCjK6lWiZRSvvArw \
--d '{
-    "username":"volca",
-    "password":"password"
-}' 'http://localhost:3000/authenticate'
-```
-
-We will see a response like this from the API
-
-```json
-{
-  "message": "Hello volca!"
-}
-```
-
-## Closing notes
-
-Hope this article helped you to understand how to secure APIs with JSON web tokens! Here are some final pointers for you to succeed with your implementation.
-
-- Make sure to keep the signing key secure. Don't check it into your repository. If someone were to get a hold of your signing key, they could sign their own tokens and get access to anything in your service. So use a cryptographically secure string with a proper length.
-- Access tokens are powerful. If you are using them to secure something important, make sure they have a short lifetime and make use of refresh tokens.
-- Access tokens are cool since you can send them to different parties and let them validate them. You can do this by publishing JSON web keys (JWKs). You will then have a private key you sign the tokens with and a public key you can publish to let others validate your tokens!
+By being aware of these common pitfalls, developers can take the necessary steps to ensure that authentication is implemented securely and effectively in their SaaS product.

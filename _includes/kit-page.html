@@ -1,0 +1,23 @@
+{% assign title = include.title %}
+
+{{ site.data[title].subtitle }}
+
+{% include boilerplate-cta.html %} 
+
+{% for kit in site.data[title].list %}
+
+<h3>{{kit.title}}</h3>
+<img
+  style="max-width: 75%; display: block; margin: 0 auto"
+  src="{{kit.image}}"
+/>
+<p>{{kit.description}}</p>
+<a class="button button--primary" style="text-align: center; margin-top: 1em" href="#"><i class="ion ion-ios-link" style="margin-right: 4px"></i> {{kit.url}}</a>
+{% endfor %}
+
+<h2>FAQ</h2>
+{% for faq in site.data[title].faq %}
+
+{% include faq-single.html title=faq.question description=faq.answer %}
+
+{% endfor %}
