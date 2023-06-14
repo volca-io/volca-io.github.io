@@ -52,10 +52,8 @@ menu__settings:
           icon: ion-logo-nodejs
         #- title: ⚛️ React SaaS Boilerplate
         #  url: /react-saas-boilerplate/
-    - title: Docs
-      url: /docs/
     - title: Blog
-      url: /blog/
+      url: /blog
 
 #-------------------------------
 # Hero Settings
@@ -63,39 +61,6 @@ hero:
   hero__title: SaaS Boilerplate and Starter Kit with Node.js and React
   hero__description: Create your SaaS using a starter kit built on proven Node and React patterns that accelerate your development and deployment speed.
 
-#-------------------------------
-# Docs Settings
-docs:
-  - title: Getting started
-    url: /docs/
-    subpages:
-      - title: 1. Configure GitHub
-        url: /docs/configure-github/
-      - title: 2. Configure AWS
-        url: /docs/configure-aws/
-      - title: 3. Deploy Infrastructure
-        url: /docs/deploy-infrastructure/
-      - title: 4. Configure Stripe
-        url: /docs/configure-stripe/
-  - title: Tech Stack
-    url: /docs/tech-stack/
-  - title: Project Structure
-    url: /docs/project-structure/
-  - title: Build a todo list
-    url: /docs/todo/
-  #- title: Building a feature
-  #  url: /docs/building-a-feature/
-  #  subpages:
-  #    - title: Migrations
-  #      url: /docs/migrations
-  #    - title: Services
-  #      url: /docs/services
-  #    - title: Actions
-  #      url: /docs/actions
-  #    - title: Pages
-  #      url: /docs/pages
-  #    - title: Hooks
-  #      url: /docs/hooks
 
 #-------------------------------
 # Portfolio Settings
