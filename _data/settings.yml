@@ -7,9 +7,6 @@ author: Volca
 description: SaaS boilerplate and starter kit with Node.js, TypeScript & React. Includes authentication, subscriptions and CI/CD. Build a SaaS in days instead of months.
 banner:
   text: "Black Week Deal: 25% off with the code BLACK 🚀"
-  button:
-    text: Buy
-    href: https://volca.io/pricing/
 
 
 #-------------------------------
