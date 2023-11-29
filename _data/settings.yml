@@ -5,8 +5,6 @@ title: SaaS Boilerplate and Starter Kit with Node.js and React - Volca
 logo: images/logo-light.svg
 author: Volca
 description: SaaS boilerplate and starter kit with Node.js, TypeScript & React. Includes authentication, subscriptions and CI/CD. Build a SaaS in days instead of months.
-banner:
-  text: "Black Week Deal: 25% off with the code BLACK 🚀"
 
 
 #-------------------------------
