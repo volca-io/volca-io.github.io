@@ -2,7 +2,7 @@
 layout: page
 seo_title: Privacy Policy
 title: Privacy Policy
-permalink: /privacy-policy/
+permalink: /privacy-policy
 ---
 
 ## Privacy Policy for Volca
